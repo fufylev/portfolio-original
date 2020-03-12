@@ -3,7 +3,15 @@
     padding: 0;
     background-size: cover;
 }
-
+.wrapper {
+    width: 100%;
+    min-height: 70px;
+    background-color: #434343;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
 .brand {
     font-size: 1.5rem;
 }
@@ -27,6 +35,6 @@
 }
 
 .header {
-    height: 70px;
+    min-height: 70px;
     background-color: #434343;
 }

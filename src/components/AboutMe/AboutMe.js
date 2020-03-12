@@ -18,8 +18,9 @@ export function AboutMe() {
                 top-notch coding skills.
             </p>
             <p className={styles.text}>
-                Curious in all aspects of JavaScript patterns and complex
-                interactive styled web pages developing.
+                I'm quietly confident, naturally curious in all aspects of JavaScript patterns and complex
+                interactive styled web pages developing, and perpetually working on
+                improving my chops one design problem at a time.
             </p>
             <h5>Languages I speak:</h5>
             <p className={styles.text}>
@@ -28,7 +29,8 @@ export function AboutMe() {
             <h5>My stack:</h5>
             <ul className={styles.text}>
                 <li><a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/fufylev/VenedorGreenResponsive">HTML5 + CSS3 (SASS, LESS), BEM, Bootstrap</a></li>
+                       href="https://github.com/fufylev/VenedorGreenResponsive">HTML5 + CSS3 (SASS, LESS), BEM,
+                    Bootstrap</a></li>
                 <li>JavaScript (ES5, ES6+), <a href="https://github.com/fufylev/jquery_js_vanhack_events_app"
                                                target="_blank" rel="noopener noreferrer">jQuery </a>
                     & <a href="https://github.com/fufylev/jquery_js_todo_app" target="_blank"

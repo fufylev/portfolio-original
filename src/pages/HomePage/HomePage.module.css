@@ -2,14 +2,16 @@
     margin-top: 2rem;
 }
 
-
+.career {
+    margin-bottom: 3rem;
+}
 
 .projects {
     margin-bottom: 3rem;
 }
 
 .docs {
-    margin-bottom: 3rem;
+    /*margin-bottom: 3rem;*/
 }
 
 
