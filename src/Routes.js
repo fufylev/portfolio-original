@@ -5,6 +5,7 @@ import { HomePage } from "./pages/HomePage/HomePage";
 import Header from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import { PageNotFound } from "./pages/NotFound404/PageNotFound";
+import { GoUp } from "./components/GoUp/GoUp";
 
 function Routes() {
     // alert("The page is being re-developed and will be updated and uploaded within the next couple of days. Page's design to be developed. Thanks for patient. Cheers");
@@ -25,6 +26,7 @@ function Routes() {
             </Switch>
             <hr />
             <Footer />
+            <GoUp/>
         </div>
     );
 }

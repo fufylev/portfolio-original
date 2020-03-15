@@ -16,8 +16,16 @@
     font-size: 1.5rem;
 }
 
+.activeLink {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white!important;
+}
+
 .link {
     font-size: 1.2rem;
+    font-weight: 300;
+    color: #939393!important;
 }
 
 .icons {

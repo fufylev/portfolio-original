@@ -14,7 +14,9 @@ html, body {
   height: 100%;
   
 }
-
+a:hover {
+  text-decoration: none;
+}
 .modal-open {
   overflow: auto;
 }
@@ -22,4 +24,12 @@ html, body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Earwig Factory';
+  src: url('./assets/fonts/earwig_factory_rg.ttf');
+  src: url('./assets/fonts/earwig_factory_rg.ttf?iefix') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

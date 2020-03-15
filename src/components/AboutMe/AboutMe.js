@@ -3,21 +3,18 @@ import styles from "./AboutMe.module.css";
 
 export function AboutMe() {
     return (
-        <article id='aboutMe' className={styles.aboutMe}>
+        <article className={styles.aboutMe}>
             <h3 className={styles.title}>About me</h3>
             <p className={styles.text}>
                 Hello! My name is <strong>Andrei Fufylev. </strong>Nice to meet you.
             </p>
             <p className={styles.text}>
-                I am a motivated and results-focused professional in producing robust code with extensive
+                I'm a motivated and results-focused professional in producing robust code with extensive
                 experience in developing web-based applications by leveraging various development tools
                 and frameworks, React & React Native, in particular.
             </p>
             <p className={styles.text}>
-                Eager to support the dev team with
-                top-notch coding skills.
-            </p>
-            <p className={styles.text}>
+                I'm eager to support the dev team with top-notch coding skills.
                 I'm quietly confident, naturally curious in all aspects of JavaScript patterns and complex
                 interactive styled web pages developing, and perpetually working on
                 improving my chops one design problem at a time.
@@ -44,11 +41,12 @@ export function AboutMe() {
                        target="_blank" rel="noopener noreferrer">
                         web sockets</a>)
                 </li>
+                <li>MongoDB, SQL (intermediate)</li>
                 <li>WebPack, Gulp</li>
                 <li>Trello, Scrum team work</li>
                 <li>Git, GitHub</li>
                 <li>Vue JS - intermediate</li>
-                <li>Terminal</li>
+                <li>Terminal, Docker</li>
             </ul>
         </article>
     );

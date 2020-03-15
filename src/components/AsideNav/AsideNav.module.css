@@ -6,3 +6,13 @@
     margin-bottom: 2rem;
     color: #939393;
 }
+
+.anchor:hover {
+    text-decoration: none;
+    color: #4e555b;
+    font-weight: bold;
+}
+
+:target {
+
+}

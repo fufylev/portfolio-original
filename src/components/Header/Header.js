@@ -25,10 +25,10 @@ const Header = () => {
                     <MDBNavbarToggler onClick={onClick}/>
                     <MDBCollapse isOpen={isOpen} navbar>
                         <MDBNavbarNav left>
-                            <MDBNavItem className={styles.link} active={location.pathname === '/'}>
+                            <MDBNavItem className={location.pathname === '/' ? styles.activeLink : styles.link}>
                                 <MDBNavLink to='/'>Home</MDBNavLink>
                             </MDBNavItem>
-                            <MDBNavItem className={styles.link} active={location.pathname === '/contacts'}>
+                            <MDBNavItem className={location.pathname === '/contacts' ? styles.activeLink : styles.link}>
                                 <MDBNavLink to='/contacts'>Contacts</MDBNavLink>
                             </MDBNavItem>
                         </MDBNavbarNav>
@@ -44,11 +44,11 @@ const Header = () => {
                         <a href='https://www.instagram.com/andrey_fufylev/' rel="noopener noreferrer" target='_blank'
                            className={`text-white ${styles.icons}`}>
                             <MDBIcon fab icon="instagram"/>
-                        </a>
+                        </a>*/}
                         <a href='mailto: fufylev@gmail.com' rel="noopener noreferrer" target='_blank'
                            className={`text-white ${styles.icons}`}>
-                            <MDBIcon icon="at"/>
-                        </a>*/}
+                            <MDBIcon far icon="envelope" />
+                        </a>
                         </MDBNavbarNav>
                     </MDBCollapse>
                 </MDBNavbar>
