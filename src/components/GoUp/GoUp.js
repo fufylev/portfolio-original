@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBIcon } from 'mdbreact';
-import style from './GoUp.module.css'
+import style from './GoUp.module.css';
 
 export function GoUp() {
     return (

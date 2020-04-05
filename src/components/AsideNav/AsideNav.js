@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBNav, MDBIcon } from "mdbreact";
+import { MDBNav, MDBIcon } from 'mdbreact';
 import styles from './AsideNav.module.css';
 
 class AsideNav extends Component {
@@ -9,10 +9,21 @@ class AsideNav extends Component {
                 <nav className="navbar navbar-expand-md">
                     <div className="collapse navbar-collapse" id="navbar">
                         <MDBNav className="flex-column">
-                            <a href="#aboutMe" className={styles.anchor}><MDBIcon icon="info" /> &ensp; About me</a>
-                            <a href="#projects" className={styles.anchor}><MDBIcon icon="th-list" /> &ensp; My recent work</a>
-                            <a href="#career" className={styles.anchor}> <MDBIcon icon="chart-line" /> &ensp; Milestones</a>
-                            <a href="#docs" className={styles.anchor}> <MDBIcon far icon="file-alt" />&ensp; Docs & certificates</a>
+                            <a href="#aboutMe" className={styles.anchor}>
+                                <MDBIcon icon="info" /> &ensp; About me
+                            </a>
+                            <a href="#projects" className={styles.anchor}>
+                                <MDBIcon icon="th-list" /> &ensp; My recent work
+                            </a>
+                            <a href="#career" className={styles.anchor}>
+                                {' '}
+                                <MDBIcon icon="chart-line" /> &ensp; Milestones
+                            </a>
+                            <a href="#docs" className={styles.anchor}>
+                                {' '}
+                                <MDBIcon far icon="file-alt" />
+                                &ensp; Docs & certificates
+                            </a>
                         </MDBNav>
                     </div>
                 </nav>

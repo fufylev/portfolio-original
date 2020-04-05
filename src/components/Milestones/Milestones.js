@@ -44,7 +44,7 @@ export function Milestones() {
                     app and a "Scrum team" and its work
                 </li>
             </ul>
-            <h5 className='text-center mb-3 text-info'>Education & Trainings</h5>
+            <h5 className='text-center mb-3 text-info'>Self Education & Trainings</h5>
             <p className={styles.heading}>March 2018 – Dec 2019</p>
             <p className={styles.heading}>
                 <a href="https://geekbrains.ru/" target="_blank" rel="noopener noreferrer">GeekBrains</a> online
@@ -65,12 +65,15 @@ export function Milestones() {
                    rel="noopener noreferrer">Certificate </a></span> )
             </p>
             <p className='mb-5'/>
-            <p className={styles.heading}>Jan 2020 – present</p>
+            <p className={styles.heading}>Jan 2020 – Apr 2020</p>
             <p className={styles.heading}>
                 <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank"
                    rel="noopener noreferrer">Udacity </a>Nano Degree Program - "Become a React Developer"
             </p>
-            <p className={styles.position}>React & React Native Developer.</p>
+            <p className={styles.position}>React & React Native ( <span className={styles.links}>
+                <a href="https://confirm.udacity.com/239UATAS" target="_blank"
+                   rel="noopener noreferrer">Certificate </a></span> )
+            </p>
         </article>
     );
 }

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { TopPageInfo } from "../../components/TopPageInfo/TopPageInfo";
+import { TopPageInfo } from '../../components/TopPageInfo/TopPageInfo';
 import styles from './Contacts.module.css';
-import { MDBIcon } from "mdbreact";
+import { MDBIcon } from 'mdbreact';
 
 export class Contacts extends Component {
     render() {
         return (
-            <main className='container'>
-                <TopPageInfo/>
+            <main className="container">
+                <TopPageInfo />
                 <h3>Contacts:</h3>
-                <hr/>
+                <hr />
                 <div className={styles.elem}>
                     <strong className={styles.text}>Full Name: </strong>
                     <span className={styles.link}>ANDREI FUFYLEV </span>
@@ -21,7 +21,12 @@ export class Contacts extends Component {
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>Email: </strong>
-                    <a href='mailto: fufylev@gmail.com' rel="noopener noreferrer" target='_blank'className={styles.link}>
+                    <a
+                        href="mailto: fufylev@gmail.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        className={styles.link}
+                    >
                         fufylev@gmail.com
                     </a>
                 </div>
@@ -35,11 +40,25 @@ export class Contacts extends Component {
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>GitHub: </strong>
-                    <a rel="noopener noreferrer" target='_blank' href="https://github.com/fufylev" className={styles.link}>github.com/fufylev</a>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://github.com/fufylev"
+                        className={styles.link}
+                    >
+                        github.com/fufylev
+                    </a>
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>LinkedIn: </strong>
-                    <a rel="noopener noreferrer" target='_blank' href="https://www.linkedin.com/in/andreifufylev/" className={styles.link}>linkedin.com/in/andreifufylev/</a>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/andreifufylev/"
+                        className={styles.link}
+                    >
+                        linkedin.com/in/andreifufylev/
+                    </a>
                 </div>
             </main>
         );
