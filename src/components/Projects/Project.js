@@ -41,6 +41,7 @@ export function Projects() {
                 <MDBIcon fab icon="react" />
                 &ensp; <MDBIcon icon="desktop" />
             </h3>
+
             <div className={styles.cardsContainer}>
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
@@ -63,6 +64,7 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
+
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <img src={wouldYouRather} alt="Would you rather game" className={styles.img} />
@@ -84,6 +86,7 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
+
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <img src={insta} alt="Lite Insta" className={styles.img} />
@@ -95,7 +98,7 @@ export function Projects() {
                             <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components + Hooks, back-end
                             - Google Cloud FireStore DataBase, NodeJS.
                         </p>
-                        <Dev />
+                        {/*<Dev />*/}
                         <GitHubLink link={linksGitHub.insta} />
                         <a
                             href="https://insta-andrey-f.firebaseapp.com/"
@@ -118,6 +121,7 @@ export function Projects() {
                         </div>
                     </div>
                 </div>
+
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <img src={team} alt="TODO" className={styles.img} />
@@ -130,12 +134,14 @@ export function Projects() {
                     </div>
                 </div>
             </div>
+
             <h3 className="text-center my-5 text-info">
                 React Native:&ensp;
                 <MDBIcon fab icon="react" />
                 &ensp; <i className="fab fa-apple"></i>&ensp;
                 <MDBIcon fab icon="android" />
             </h3>
+
             <div className={styles.cardsContainer}>
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
@@ -146,7 +152,7 @@ export function Projects() {
                             sleeping hrs, number of healthy drinks, etc.
                             <br/><strong>Stack:</strong> JS(ES6+), React Native - components & hooks
                         </p>
-                        <Dev />
+                        {/*<Dev />*/}
                         <GitHubLink link={linksGitHub.fitnessApp} />
                         <a
                             href="https://expo.io/@fufylev/fitness-calendar"
@@ -160,6 +166,7 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
+
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <img src={photoUploader} alt="Self Post" className={styles.img} />
@@ -169,7 +176,7 @@ export function Projects() {
                             platform in its own way
                             <br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, SQLite
                         </p>
-                        <Dev />
+                        {/*<Dev />*/}
                         <GitHubLink link={linksGitHub.selfBlog} />
                         <a
                             href="https://expo.io/@fufylev/rn-self-posts"
@@ -183,6 +190,7 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
+
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <img src={flash_cards} alt="Mobile Flashcards" className={styles.img} />
@@ -203,10 +211,11 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
+
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
-                        <img src={forex} alt="Mobile Flashcards" className={styles.img} />
-                        <p className={styles.head}>Quotes (Socket.IO) - new</p>
+                        <img src={forex} alt="Quotes" className={styles.img} />
+                        <p className={styles.head}>Quotes (Socket.IO)</p>
                         <p className={styles.content}>
                             A simple app indicating currency pair quotes and their details in real time<br/>
                             React Context used as an app state management - no redux
@@ -221,7 +230,9 @@ export function Projects() {
                             <span>Published on Expo </span>
                         </a>
                     </div>
+                    <div style={{ position: "absolute", top: 20, right: 20, color: "red", fontWeight: "bold", fontSize: 20 }}>New !!!</div>
                 </div>
+
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <img src={todo} alt="todo" className={styles.img} />
