@@ -1,0 +1,149 @@
+.projects {
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cardsContainer {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: baseline;*/
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+.cardContainer {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+    min-height: 100px;
+    padding: 6px!important;
+    margin-bottom: 20px!important;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 6px 0px, rgba(0, 0, 0, 0.1) 0px 2px 12px 0px;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #525252;
+    text-align: center;
+}
+
+.headingText {
+    font-size: 18px;
+    color: #4e555b;
+}
+
+.vue {
+    color: #1d7f31;
+}
+
+.icon {
+    font-size: 46px;
+    margin-bottom: 1rem;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #525252;
+}
+
+.link {
+    font-size: 18px;
+    color: #1f19bf;
+    margin-bottom: 1rem;
+}
+
+.linkWeb {
+    font-size: 18px;
+    color: #1f19bf;
+    margin-bottom: 1rem;
+}
+
+.link:hover, .linkWeb:hover {
+    font-size: 18px;
+    color: #434343;
+    font-weight: bold;
+}
+
+.img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 1rem;
+    padding: 10px 0;
+}
+
+.extra {
+    color: #a6a6a6;
+}
+
+.ela {
+    font-family: 'Earwig Factory';
+    color: #1f19bf;
+    font-size: 3rem;
+}
+
+.dev {
+    color: #0f6674;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .cardContainer {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .cardContainer {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .cardContainer {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cardContainer {
+        max-width: 100%;
+        flex-basis: 100%;
+        padding: 0 !important;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .cardContainer {
+        max-width: 100%;
+        flex-basis: 100%;
+        padding: 0 !important;
+        margin-bottom: 10px;
+    }
+}
