@@ -12,22 +12,22 @@ import { Docs } from '../../components/Docs/Docs';
 export function HomePage() {
     return (
         <div className="container">
-            <div id="top"></div>
+            <div id="top"/>
             <TopPageInfo />
             <div className="row main-content">
                 <AsideNav />
                 <div className="col-md-8 col-lg-9 content-container">
                     <div className={styles.mainContent}>
-                        <div id="aboutMe"></div>
+                        <div id="aboutMe"/>
                         <AboutMe />
                         <hr />
-                        <div id="projects"></div>
+                        <div id="projects"/>
                         <Projects />
                         <hr />
-                        <div id="career"></div>
+                        <div id="career"/>
                         <Milestones />
                         <hr />
-                        <div id="docs"></div>
+                        <div id="docs"/>
                         <Docs />
                         <hr />
                     </div>

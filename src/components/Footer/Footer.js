@@ -3,7 +3,6 @@ import { MDBIcon } from 'mdbreact';
 import styles from './Footer.module.css';
 
 export const Footer = () => {
-    const bgPink = { backgroundColor: '#434343' };
     return (
         <footer className={styles.footer}>
             <a

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { TopPageInfo } from '../../components/TopPageInfo/TopPageInfo';
 import styles from './Contacts.module.css';
-import { MDBIcon } from 'mdbreact';
 
 export class Contacts extends Component {
     render() {
