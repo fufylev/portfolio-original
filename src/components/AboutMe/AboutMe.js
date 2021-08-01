@@ -11,7 +11,7 @@ export function AboutMe() {
             <p className={styles.text}>
                 I'm a motivated and results-focused professional in producing robust code with extensive experience in
                 developing web-based applications by leveraging various development tools and frameworks, <strong><i>React
-                and React Native</i></strong> along with <strong><i>Redux</i></strong> or <strong><i>MobX</i></strong>.
+                and React Native</i></strong> along with <strong><i>Redux</i></strong> or <strong><i>MobX & MST</i></strong>.
             </p>
             <p className={styles.text}>
                 I'm eager to support the dev team with top-notch coding skills. I'm quietly confident, naturally curious
@@ -52,8 +52,7 @@ export function AboutMe() {
                     </a>
                 </li>
                 <li>React & React Native - class components, hooks, HOC</li>
-                <li>Redux, MobX</li>
-                <li>Thunk, Saga</li>
+                <li>Redux + Saga or Thunk, MobX & MST</li>
                 <li>
                     <a
                         href="https://github.com/fufylev/node.js-25.06/tree/master/Andrey_Fufylev/CRUD_interface"

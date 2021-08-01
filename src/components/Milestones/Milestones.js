@@ -25,9 +25,7 @@ export function Milestones() {
               <li>React Navigation was updated from v1 to v.5.7.1</li>
               <li>Whole project was migrated from Redux to MST (mobx-state-tree).</li>
               <li>All API calls and invocations were moved on the MST life-circle side.</li>
-              <li>All explicit invocations of AsyncStorage were replaced by Persist Storage in favor of app's
-                reactiveness.
-              </li>
+              <li>All explicit invocations of AsyncStorage were replaced by Persist Storage.</li>
               <li>App's architecture was optimized in the way so there are now no any re-renders throughout the app
                 while using and screen transition.
               </li>
@@ -42,7 +40,6 @@ export function Milestones() {
                      rel="noopener noreferrer">ForexCopy</a>.
           </li>
         </ul>
-
       </ul>
 
       <p className={styles.heading}>April 2018 – March 2020, Russian Federation</p>
