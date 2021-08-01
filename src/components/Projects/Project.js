@@ -37,246 +37,218 @@ export function Projects() {
         hundreds of web and mobile apps in different industries and verticals. Eventually, I decided that it
         would be a fun challenge to try designing and building my own.
       </p>
-      <p className={styles.headingText}>Here are a few projects I've worked on recently.</p>
-      <h3 className="text-center my-5 text-info">
-        React Native:&ensp;
-        <MDBIcon fab icon="react"/>
-        &ensp; <i className="fab fa-apple"></i>&ensp;
-        <MDBIcon fab icon="android"/>
-      </h3>
-      <div className={styles.cardsContainer}>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={ForexCopy} alt="ForexCopy" className={styles.img}/>
-            <p className={styles.head}>ForexCopy</p>
-            <p className={styles.content}>
-              The app is on the final stage of development I am currently working on.<br/>
-              This will be the app with the same functionality as web app&nbsp;<a
-              href="https://www.instaforex.com/forexcopy_system" target="_blank"
-              rel="noopener noreferrer">ForexCopy</a>&nbsp;what is an&nbsp;<a
-              href="https://www.instaforex.com" target="_blank"
-              rel="noopener noreferrer">InstaForex</a>&nbsp;service that allows you to duplicate
-              orders of successful traders even when you
-              are away from your trading terminal. It takes just a few minutes to choose a trader and set up automatic
-              copying of the chosen trader’s activity. Alternatively, it takes the same few minutes to set up an account
-              for others to be able to copy trades from you.
-              <br/><strong>Stack:</strong> JS(ES6+), React Native, MST (mobx-state-tree), React Navigation,
-              React-Native-Reanimated animations, WebView, etc.
-            </p>
-            <Dev/>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={CryptoLearn} alt="CryptoLearn" className={styles.img}/>
-            <p className={styles.head}>CryptoLearn cryptocurrency mobile application</p>
-            <p className={styles.content}>
-              <a href="https://play.google.com/store/apps/details?id=com.instaforex.android.cryptolearn" target="_blank"
-                 rel="noopener noreferrer">CryptoLearn</a>&nbsp;is live Google Play deployed all-in-one app where you can find the
-              required information for successful trading in the cryptocurrency market. The new information guide will
-              provide you with the specifics of the crypto market dynamics. Traders can get the latest news on digital
-              currencies, find the appropriate information, as well as participate in training seminars. The training
-              section is divided into 12 lessons for the convenience of traders.
-              <br/><strong>Stack:</strong> JS(ES6+), React Native, MST (mobx-state-tree), React Navigation,
-              React-Native-Reanimated animations, WebView, etc.
-            </p>
-            <Dev/>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={health} alt="Health" className={styles.img}/>
-            <p className={styles.head}>Fitness Calendar</p>
-            <p className={styles.content}>
-              Schedule, save and check all your heath & fitness activities: jogging, cycling, swimming,
-              sleeping hrs, number of healthy drinks, etc.
-              <br/><strong>Stack:</strong> JS(ES6+), React Native - components & hooks
-            </p>
-            <Dev/>
-            <GitHubLink link={linksGitHub.fitnessApp}/>
-            <a
-              href="https://expo.io/@fufylev/fitness-calendar"
-              className={styles.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={expoText} alt="expo" style={{width: 20, height: 20}}/>
-              &ensp;
-              <span>Published on Expo </span>
-            </a>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={photoUploader} alt="Self Post" className={styles.img}/>
-            <p className={styles.head}>Self Blog</p>
-            <p className={styles.content}>
-              A simple Self Posts app with various features and very creative design adapted to each
-              platform in its own way
-              <br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, SQLite
-            </p>
-            <Dev/>
-            <GitHubLink link={linksGitHub.selfBlog}/>
-            <a
-              href="https://expo.io/@fufylev/rn-self-posts"
-              className={styles.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={expoText} alt="expo" style={{width: 20, height: 20}}/>
-              &ensp;
-              <span>Published on Expo </span>
-            </a>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={flash_cards} alt="Mobile Flashcards" className={styles.img}/>
-            <p className={styles.head}>Mobile Flashcards</p>
-            <p className={styles.content}>
-              A mobile application that allows users to study collections of flashcards. The app will
-              allow users to create different categories of flashcards called "decks", add flashcards to
-              those decks, then take quizzes on those decks.
-              <br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, AsyncStorage
-            </p>
-            <Dev/>
-            <GitHubLink link={linksGitHub.flash_cards}/>
-            <a href="https://expo.io/@fufylev/mobile-flashcards" className={styles.link}
-               target="_blank"
-               rel="noopener noreferrer">
-              <img src={expoText} alt="expo" style={{width: 20, height: 20}}/>&ensp;
-              <span>Published on Expo </span>
-            </a>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={forex} alt="Mobile Flashcards" className={styles.img}/>
-            <p className={styles.head}>Quotes (Socket.IO) - new</p>
-            <p className={styles.content}>
-              A simple app indicating currency pair quotes and their details in real time<br/>
-              React Context used as an app state management - no redux
-              <br/><br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, Socket.IO, React Context
-            </p>
-            <Dev/>
-            <GitHubLink link={linksGitHub.quotes}/>
-            <a href="https://expo.io/@fufylev/real-time-quotes" className={styles.link}
-               target="_blank"
-               rel="noopener noreferrer">
-              <img src={expoText} alt="expo" style={{width: 20, height: 20}}/>&ensp;
-              <span>Published on Expo </span>
-            </a>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={todo} alt="todo" className={styles.img}/>
-            <p className={styles.head}>Todo Planer</p>
-            <p className={styles.content}>
-              A simple TODO application with various features. <br/>Built by using 'Context' pattern instead of
-              'Redux'.
-              <br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, Google FireBase DB
-            </p>
-            <GitHubLink link={linksGitHub.todoApp}/>
-          </div>
-        </div>
-      </div>
-      <h3 className="text-center my-5 text-info">
-        React JS: &ensp;
-        <MDBIcon fab icon="react"/>
-        &ensp; <MDBIcon icon="desktop"/>
-      </h3>
-      <div className={styles.cardsContainer}>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <p className={styles.ela}>ELA</p>
-            <p className={styles.head}>English Learning App</p>
-            <p className={styles.content}>
-              During my internship in GeekBrains I and other several students were creating an MVP version
-              of the client-server application named "English Learning Application". I was responsible for
-              creating the front-end UI and its logic.
-              <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components, Saga, Trello task manager
-            </p>
-            <GitHubLink link={linksGitHub.ela}/>
-            <a
-              href="http://ela.abirula.com/vocabulary"
-              className={styles.linkWeb}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>www.ela.com</span>
-            </a>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={wouldYouRather} alt="Would you rather game" className={styles.img}/>
-            <p className={styles.head}>Would you rather?</p>
-            <p className={styles.content}>
-              A web app that lets a user play the “Would You Rather?” game. The game goes like this: A
-              user is asked a question in the form: “Would you rather <strong>option A</strong> or{' '}
-              <strong>option B </strong>?”. Leader board is also available
-              <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components (HOC)
-            </p>
-            <GitHubLink link={linksGitHub.wouldYouRather}/>
-            <a
-              href="https://woul-you-rather.firebaseapp.com/"
-              className={styles.linkWeb}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>www.would-you-rather.com</span>
-            </a>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={insta} alt="Lite Insta" className={styles.img}/>
-            <p className={styles.head}> Lite Insta </p>
-            <p className={styles.content}>
-              Sort of a lite version of an "Instagram" where I'm trying to solidify my skills in React JS
-              and Rest API and apply all cutting-edge tools &ensp;
-              <MDBIcon icon="code" className="m-0 p-0"/>
-              <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components + Hooks, back-end
-              - Google Cloud FireStore DataBase, NodeJS.
-            </p>
-            <Dev/>
-            <GitHubLink link={linksGitHub.insta}/>
-            <a
-              href="https://insta-andrey-f.firebaseapp.com/"
-              className={styles.linkWeb}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>www.insta.firebaseapp.app</span>
-            </a>
-            <div className={`d-flex flex-column align-items-center ${styles.extra}`}>
+
+            <p className={styles.headingText}>Here are a few projects I've worked on recently.</p>
+            <h3 className="text-center my-5 text-info">
+                React JS: &ensp;
+                <MDBIcon fab icon="react" />
+                &ensp; <MDBIcon icon="desktop" />
+            </h3>
+
+            <div className={styles.cardsContainer}>
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <p className={styles.ela}>ELA</p>
+                        <p className={styles.head}>English Learning App</p>
+                        <p className={styles.content}>
+                            During my internship in GeekBrains I and other several students were creating an MVP version
+                            of the client-server application named "English Learning Application". I was responsible for
+                            creating the front-end UI and its logic.
+                            <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components, Saga, Trello task manager
+                        </p>
+                        <GitHubLink link={linksGitHub.ela} />
+                        <a
+                            href="http://ela.abirula.com/vocabulary"
+                            className={styles.linkWeb}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>www.ela.com</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={wouldYouRather} alt="Would you rather game" className={styles.img} />
+                        <p className={styles.head}>Would you rather?</p>
+                        <p className={styles.content}>
+                            A web app that lets a user play the “Would You Rather?” game. The game goes like this: A
+                            user is asked a question in the form: “Would you rather <strong>option A</strong> or{' '}
+                            <strong>option B </strong>?”. Leader board is also available
+                            <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components (HOC)
+                        </p>
+                        <GitHubLink link={linksGitHub.wouldYouRather} />
+                        <a
+                            href="https://woul-you-rather.firebaseapp.com/"
+                            className={styles.linkWeb}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>www.would-you-rather.com</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={insta} alt="Lite Insta" className={styles.img} />
+                        <p className={styles.head}> Lite Insta </p>
+                        <p className={styles.content}>
+                            Sort of a lite version of an "Instagram" where I'm trying to solidify my skills in React JS
+                            and Rest API and apply all cutting-edge tools &ensp;
+                            <MDBIcon icon="code" className="m-0 p-0" />
+                            <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components + Hooks, back-end
+                            - Google Cloud FireStore DataBase, NodeJS.
+                        </p>
+                        {/*<Dev />*/}
+                        <GitHubLink link={linksGitHub.insta} />
+                        <a
+                            href="https://insta-andrey-f.firebaseapp.com/"
+                            className={styles.linkWeb}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>www.insta.firebaseapp.app</span>
+                        </a>
+                        <div className={`d-flex flex-column align-items-center ${styles.extra}`}>
                             <span className="text-center">
                                 <smal>Try the current version as a test user or SignUp</smal>
                             </span>
-              <smal>
-                <strong>login:&emsp;</strong>test-user@gmail.com
-              </smal>
-              <smal>
-                <strong>password:&emsp;</strong>Qwerty123
-              </smal>
+                            <smal>
+                                <strong>login:&emsp;</strong>test-user@gmail.com
+                            </smal>
+                            <smal>
+                                <strong>password:&emsp;</strong>Qwerty123
+                            </smal>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={team} alt="TODO" className={styles.img} />
+                        <p className={styles.head}>Corporate network Task Manager (socket.io)</p>
+                        <p className={styles.content}>
+                            A web based app that lets a user to read, check and alter all tasks in real-time within the corporate network.
+                            <br/><strong>Stack:</strong> JS(ES6+), <span className={styles.vue}>VueJS <i className="fab fa-vuejs"></i> </span>+ Styled CSS, NodeJS, MongoDB + Mongoose, socket.io, jwt token
+                        </p>
+                        <GitHubLink link={linksGitHub.todoSocket} />
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div className={styles.cardContainer}>
-          <div className={styles.card}>
-            <img src={team} alt="TODO" className={styles.img}/>
-            <p className={styles.head}>Corporate network Task Manager (socket.io)</p>
-            <p className={styles.content}>
-              A web based app that lets a user to read, check and alter all tasks in real-time within the corporate
-              network.
-              <br/><strong>Stack:</strong> JS(ES6+), <span className={styles.vue}>VueJS <i className="fab fa-vuejs"></i> </span>+
-              Styled CSS, NodeJS, MongoDB + Mongoose, socket.io, jwt token
-            </p>
-            <GitHubLink link={linksGitHub.todoSocket}/>
-          </div>
-        </div>
-      </div>
-    </article>
-  );
+
+            <h3 className="text-center my-5 text-info">
+                React Native:&ensp;
+                <MDBIcon fab icon="react" />
+                &ensp; <i className="fab fa-apple"></i>&ensp;
+                <MDBIcon fab icon="android" />
+            </h3>
+
+            <div className={styles.cardsContainer}>
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={health} alt="Health" className={styles.img} />
+                        <p className={styles.head}>Fitness Calendar</p>
+                        <p className={styles.content}>
+                            Schedule, save and check all your heath & fitness activities: jogging, cycling, swimming,
+                            sleeping hrs, number of healthy drinks, etc.
+                            <br/><strong>Stack:</strong> JS(ES6+), React Native - components & hooks
+                        </p>
+                        {/*<Dev />*/}
+                        <GitHubLink link={linksGitHub.fitnessApp} />
+                        <a
+                            href="https://expo.io/@fufylev/fitness-calendar"
+                            className={styles.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={expoText} alt="expo" style={{ width: 20, height: 20 }} />
+                            &ensp;
+                            <span>Published on Expo </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={photoUploader} alt="Self Post" className={styles.img} />
+                        <p className={styles.head}>Self Blog</p>
+                        <p className={styles.content}>
+                            A simple Self Posts app with various features and very creative design adapted to each
+                            platform in its own way
+                            <br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, SQLite
+                        </p>
+                        {/*<Dev />*/}
+                        <GitHubLink link={linksGitHub.selfBlog} />
+                        <a
+                            href="https://expo.io/@fufylev/rn-self-posts"
+                            className={styles.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={expoText} alt="expo" style={{ width: 20, height: 20 }} />
+                            &ensp;
+                            <span>Published on Expo </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={flash_cards} alt="Mobile Flashcards" className={styles.img} />
+                        <p className={styles.head}>Mobile Flashcards</p>
+                        <p className={styles.content}>
+                            A mobile application that allows users to study collections of flashcards. The app will
+                            allow users to create different categories of flashcards called "decks", add flashcards to
+                            those decks, then take quizzes on those decks.
+                            <br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, AsyncStorage
+                        </p>
+                        <Dev />
+                        <GitHubLink link={linksGitHub.flash_cards} />
+                        <a href="https://expo.io/@fufylev/mobile-flashcards" className={styles.link}
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img src={expoText} alt="expo" style={{width: 20, height: 20}}/>&ensp;
+                            <span>Published on Expo </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={forex} alt="Quotes" className={styles.img} />
+                        <p className={styles.head}>Quotes (Socket.IO)</p>
+                        <p className={styles.content}>
+                            A simple app indicating currency pair quotes and their details in real time<br/>
+                            React Context used as an app state management - no redux
+                            <br/><br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, Socket.IO, React Context
+                        </p>
+                        <Dev />
+                        <GitHubLink link={linksGitHub.quotes} />
+                        <a href="https://expo.io/@fufylev/real-time-quotes" className={styles.link}
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img src={expoText} alt="expo" style={{width: 20, height: 20}}/>&ensp;
+                            <span>Published on Expo </span>
+                        </a>
+                    </div>
+                    <div style={{ position: "absolute", top: 20, right: 20, color: "red", fontWeight: "bold", fontSize: 20 }}>New !!!</div>
+                </div>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={todo} alt="todo" className={styles.img} />
+                        <p className={styles.head}>Todo Planer</p>
+                        <p className={styles.content}>
+                            A simple TODO application with various features. <br/>Built by using 'Context' pattern instead of
+                            'Redux'.
+                            <br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, Google FireBase DB
+                        </p>
+                        <GitHubLink link={linksGitHub.todoApp} />
+                    </div>
+                </div>
+            </div>
+        </article>
+    );
 }

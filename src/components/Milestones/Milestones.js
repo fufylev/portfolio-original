@@ -4,10 +4,15 @@ import styles from './Milestones.module.css';
 export function Milestones() {
   return (
     <article className={styles.career}>
+
       <h3 className={styles.title}>
         Milestones
       </h3>
       <h5 className='text-center mb-3 text-info'>Professional Experience</h5>
+      <h2 className={styles.title}> Milestones </h2>
+
+      <h3 className='text-center mb-3 text-info'>Professional Experience</h3>
+
       <p className={styles.heading}>April 2020 – Present</p>
       <p className={styles.position}>Online Media Solutions Corp.</p>
       <p className={styles.position}>React Native Developer</p>
@@ -34,7 +39,9 @@ export function Milestones() {
               </li>
             </ul>
           </li>
-          <li>Development of the new application from the scratch named ForexCopy. Development in the final stage. This
+
+          <li>Development of the new application from the scratch named ForexCopy. Development in the middle stage. This
+
             will be the app with the same functionality as web app
             &ensp;<a href="https://www.instaforex.com/forexcopy_system" target="_blank"
                      rel="noopener noreferrer">ForexCopy</a>.
@@ -87,6 +94,21 @@ export function Milestones() {
                    rel="noopener noreferrer">Certificate </a></span> )
       </p>
       <p className='mb-5'/>
+
+      <h3 className='text-center mb-3 text-info'>Self Education & Trainings</h3>
+
+      <span className={styles.heading}>Jan 2020 – Apr 2020</span> &emsp; <span
+      style={{fontSize: 20, color: "red", fontWeight: "bold"}}>New!!!</span>
+      <p className={styles.heading}>
+        <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank"
+           rel="noopener noreferrer">Udacity </a>Nano Degree Program - "Become a React Developer"
+      </p>
+      <p className={styles.position}>React & React Native ( <span className={styles.links}>
+                <a href="https://confirm.udacity.com/239UATAS" target="_blank"
+                   rel="noopener noreferrer">Certificate </a></span> )
+      </p>
+      <p className='mb-5'/>
+
       <p className={styles.heading}>March 2020</p>
       <p className={styles.heading}>
         <a href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer">Udemy</a>&ensp;online courses
@@ -102,7 +124,16 @@ export function Milestones() {
            rel="noopener noreferrer">Udacity </a>Nano Degree Program - "Become a React Developer"
       </p>
       <p className={styles.position}>React & React Native ( <span className={styles.links}>
-                <a href="https://confirm.udacity.com/239UATAS" target="_blank"
+                <a href="https://confirm.udacity.com/239UATAS" target="_blank" rel="noopener noreferrer">000000000000 </a></span> )</p>
+
+      <p className={styles.heading}>March 2018 – Dec 2019</p>
+      <p className={styles.heading}>
+        <a href="https://geekbrains.ru/" target="_blank" rel="noopener noreferrer">GeekBrains</a> online
+        university,
+        <a href="https://corp.mail.ru/en/" target="_blank" rel="noopener noreferrer">&ensp;Mail.ru Group</a>
+      </p>
+      <p className={styles.position}>Full Stack JavaScript Developer ( <span className={styles.links}>
+                <a href="https://drive.google.com/open?id=1rGzfhv_1V0DrsqZj8AJjNY32Kooyyt2-" target="_blank"
                    rel="noopener noreferrer">Certificate </a></span> )
       </p>
     </article>
