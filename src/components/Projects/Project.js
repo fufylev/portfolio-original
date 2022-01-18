@@ -105,10 +105,10 @@ export function Projects() {
                         <img src={ForexCopy} alt="ForexCopy" className={styles.img}/>
                         <p className={styles.head}>ForexCopy</p>
                         <p className={styles.content}>
-                            Development of the new application from the scratch named ForexCopy<br/>
+                            Development of the new application from the scratch named ForexCopy.<br/>
                             <a href="https://play.google.com/store/apps/details?id=com.instaforex.android.forexcopy"
                                target="_blank"
-                               rel="noopener noreferrer">ForexCopy</a>&nbsp; is the best InstaForex app for copying
+                               rel="noopener noreferrer">ForexCopy</a>&nbsp;is the best InstaForex app for copying
                             orders of top traders.<br/>
                             The ForexCopy mobile app from InstaForex will help you explore the process of copying orders
                             of top traders and start making money on their successful trades. ForexCopy is a
@@ -119,7 +119,7 @@ export function Projects() {
                         </p>
                         <Dev/>
                     </div>
-                    <div style={{
+                   {/* <div style={{
                         position: "absolute",
                         top: 20,
                         right: 20,
@@ -127,7 +127,7 @@ export function Projects() {
                         fontWeight: "bold",
                         fontSize: 20
                     }}>New !!!
-                    </div>
+                    </div>*/}
                 </div>
 
                 <div className={styles.cardContainer}>
@@ -135,7 +135,7 @@ export function Projects() {
                         <img src={CryptoLearn} alt="CryptoLearn" className={styles.img}/>
                         <p className={styles.head}>CryptoLearn cryptocurrency</p>
                         <p className={styles.content}>
-                            I have entirely rewritten and restructured the existing live application CryptoLearn<br/>
+                            I have entirely rewritten and restructured the existing live application CryptoLearn.<br/>
                             <a href="https://play.google.com/store/apps/details?id=com.instaforex.android.cryptolearn"
                                target="_blank"
                                rel="noopener noreferrer">CryptoLearn</a>&nbsp;is live Google Play deployed all-in-one
@@ -151,7 +151,7 @@ export function Projects() {
                         </p>
                         <Dev/>
                     </div>
-                    <div style={{
+                    {/*<div style={{
                         position: "absolute",
                         top: 20,
                         right: 20,
@@ -159,7 +159,7 @@ export function Projects() {
                         fontWeight: "bold",
                         fontSize: 20
                     }}>New !!!
-                    </div>
+                    </div>*/}
                 </div>
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
@@ -176,8 +176,8 @@ export function Projects() {
                                rel="noopener noreferrer">iOS</a>&nbsp;
                             of the InstaForex trading account in your mobile.
                             <br/><strong>Stack:</strong> TypeScript only(ES6+), React Native, MST (mobx-state-tree) +
-                            MobX, React Navigation,
-                            React-Native-Reanimated v.2 animations, WebView, Rive animation, etc.
+                            MobX, React Navigation, &nbsp;
+                            <strong>React-Reanimated v.2</strong> animations, WebView, <strong>Rive animation</strong>, etc.
                         </p>
                         <Dev/>
                     </div>

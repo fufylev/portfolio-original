@@ -28,16 +28,14 @@ export function Milestones() {
 
                     </li>
                     <li className="">
-                        I have entirely rewritten and restructured the existing application&ensp;
-                        <a href="https://play.google.com/store/apps/details?id=com.instaforex.android.cryptolearn"
+                        I have entirely rewritten and restructured the existing application&nbsp;<a href="https://play.google.com/store/apps/details?id=com.instaforex.android.cryptolearn"
                            target="_blank"
                            rel="noopener noreferrer">CryptoLearn</a>
                     </li>
 
-                    <li>Development of the new application from the scratch named
-                        &ensp;<a href="https://play.google.com/store/apps/details?id=com.instaforex.android.forexcopy"
+                    <li>Development of the new application from the scratch named&nbsp;<a href="https://play.google.com/store/apps/details?id=com.instaforex.android.forexcopy"
                                  target="_blank"
-                                 rel="noopener noreferrer">ForexCopy</a>&nbsp; which is the best InstaForex app for
+                                 rel="noopener noreferrer">ForexCopy</a>&nbsp;which is the best InstaForex app for
                         copying orders of top traders.<br/>
                     </li>
                     <li>
@@ -46,7 +44,7 @@ export function Milestones() {
                         href="https://play.google.com/store/apps/details?id=com.instaforex.mobiletrader" target="_blank"
                         rel="noopener noreferrer">InstaForex</a>&nbsp;in order to apply a new design and boost its
                         performance to the new level.<br/>
-                        Development in the middle stage...
+                        Development in the final stage.
 
                     </li>
                 </ul>
@@ -101,8 +99,8 @@ export function Milestones() {
 
 
 
-            <span className={styles.heading}>Jan 2020 – Apr 2020</span> &emsp; <span
-            style={{fontSize: 20, color: "red", fontWeight: "bold"}}>New!!!</span>
+            <span className={styles.heading}>Jan 2020 – Apr 2020</span> {/*&emsp; <span
+            style={{fontSize: 20, color: "red", fontWeight: "bold"}}>New!!!</span>*/}
             <p className={styles.heading}>
                 <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank"
                    rel="noopener noreferrer">Udacity </a>Nano Degree Program - "Become a React Developer"
