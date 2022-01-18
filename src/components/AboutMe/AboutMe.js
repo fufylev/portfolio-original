@@ -12,12 +12,11 @@ export function AboutMe() {
             <p className={styles.text}>
                 I'm a motivated and results-focused professional in producing robust code with extensive experience in
                 developing web-based and cross-platform mobile applications by leveraging various development tools and
-                frameworks, <strong><i>React
-                and React Native</i></strong> along with <strong><i>Redux</i></strong> or <strong><i>MobX</i></strong>.
+                frameworks such as <strong><i>React Native</i></strong> or <strong><i>Flutter</i></strong>.
             </p>
             <p className={styles.text}>
                 I'm eager to support the dev team with top-notch coding skills. I'm quietly confident, naturally curious
-                in all aspects of JavaScript patterns and complex interactive styled web pages developing, and
+                in all aspects of JavaScript & Dart patterns and complex interactive styled web pages developing, and
                 perpetually working on improving my chops one design problem at a time.
             </p>
             <h5>Languages I speak:</h5>
@@ -71,7 +70,7 @@ export function AboutMe() {
         </article>
     );
 
-    return (
+    /*return (
         <article className={styles.aboutMe}>
             <h3 className={styles.title}>About me</h3>
             <p className={styles.text}>
@@ -149,6 +148,6 @@ export function AboutMe() {
                 <li>Terminal, Docker</li>
             </ul>
         </article>
-    );
+    );*/
 
 }

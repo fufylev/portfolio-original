@@ -6,11 +6,8 @@ export function Milestones() {
     return (
         <article className={styles.career}>
 
-            <h3 className={styles.title}>
-                Milestones
-            </h3>
-            <h5 className='text-center mb-3 text-info'>Professional Experience</h5>
             <h2 className={styles.title}> Milestones </h2>
+
 
             <h3 className='text-center mb-3 text-info'>Professional Experience</h3>
 
@@ -89,7 +86,7 @@ export function Milestones() {
                     app and a "Scrum team" and its work
                 </li>
             </ul>
-            <h5 className='text-center mb-3 text-info'>Self Education & Trainings</h5>
+            <h3 className='text-center mb-3 text-info'>Self Education & Trainings</h3>
             <p className={styles.heading}>March 2018 – Dec 2019</p>
             <p className={styles.heading}>
                 <a href="https://geekbrains.ru/" target="_blank" rel="noopener noreferrer">GeekBrains</a> online
@@ -102,7 +99,7 @@ export function Milestones() {
             </p>
             <p className='mb-5'/>
 
-            <h3 className='text-center mb-3 text-info'>Self Education & Trainings</h3>
+
 
             <span className={styles.heading}>Jan 2020 – Apr 2020</span> &emsp; <span
             style={{fontSize: 20, color: "red", fontWeight: "bold"}}>New!!!</span>
@@ -132,7 +129,7 @@ export function Milestones() {
             </p>
             <p className={styles.position}>React & React Native ( <span className={styles.links}>
                 <a href="https://confirm.udacity.com/239UATAS" target="_blank"
-                   rel="noopener noreferrer">000000000000 </a></span> )</p>
+                   rel="noopener noreferrer">Certificate </a></span> )</p>
 
             <p className={styles.heading}>March 2018 – Dec 2019</p>
             <p className={styles.heading}>

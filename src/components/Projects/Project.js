@@ -170,8 +170,11 @@ export function Projects() {
                             apply new design and new API.<br/>
                             <a href="https://play.google.com/store/apps/details?id=com.instaforex.verify&hl=ru"
                                target="_blank"
-                               rel="noopener noreferrer">Instaverify</a>&nbsp;of the InstaForex trading account in your
-                            mobile.
+                               rel="noopener noreferrer">Android</a>&nbsp;&&nbsp;
+                            <a href="https://apps.apple.com/gb/app/instaverify/id1581604223"
+                               target="_blank"
+                               rel="noopener noreferrer">iOS</a>&nbsp;
+                            of the InstaForex trading account in your mobile.
                             <br/><strong>Stack:</strong> TypeScript only(ES6+), React Native, MST (mobx-state-tree) +
                             MobX, React Navigation,
                             React-Native-Reanimated v.2 animations, WebView, Rive animation, etc.
