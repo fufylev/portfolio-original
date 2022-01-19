@@ -120,25 +120,25 @@ export function Milestones() {
                    rel="noopener noreferrer">Certificate </a></span> )
             </p>
             <p className='mb-5'/>
-            <p className={styles.heading}>Jan 2020 – Apr 2020</p>
-            <p className={styles.heading}>
-                <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank"
-                   rel="noopener noreferrer">Udacity </a>Nano Degree Program - "Become a React Developer"
-            </p>
-            <p className={styles.position}>React & React Native ( <span className={styles.links}>
-                <a href="https://confirm.udacity.com/239UATAS" target="_blank"
-                   rel="noopener noreferrer">Certificate </a></span> )</p>
+            {/*<p className={styles.heading}>Jan 2020 – Apr 2020</p>*/}
+            {/*<p className={styles.heading}>*/}
+            {/*    <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank"*/}
+            {/*       rel="noopener noreferrer">Udacity </a>Nano Degree Program - "Become a React Developer"*/}
+            {/*</p>*/}
+            {/*<p className={styles.position}>React & React Native ( <span className={styles.links}>*/}
+            {/*    <a href="https://confirm.udacity.com/239UATAS" target="_blank"*/}
+            {/*       rel="noopener noreferrer">Certificate </a></span> )</p>*/}
 
-            <p className={styles.heading}>March 2018 – Dec 2019</p>
-            <p className={styles.heading}>
-                <a href="https://geekbrains.ru/" target="_blank" rel="noopener noreferrer">GeekBrains</a> online
-                university,
-                <a href="https://corp.mail.ru/en/" target="_blank" rel="noopener noreferrer">&ensp;Mail.ru Group</a>
-            </p>
-            <p className={styles.position}>Full Stack JavaScript Developer ( <span className={styles.links}>
-                <a href="https://drive.google.com/open?id=1rGzfhv_1V0DrsqZj8AJjNY32Kooyyt2-" target="_blank"
-                   rel="noopener noreferrer">Certificate </a></span> )
-            </p>
+            {/*<p className={styles.heading}>March 2018 – Dec 2019</p>*/}
+            {/*<p className={styles.heading}>*/}
+            {/*    <a href="https://geekbrains.ru/" target="_blank" rel="noopener noreferrer">GeekBrains</a> online*/}
+            {/*    university,*/}
+            {/*    <a href="https://corp.mail.ru/en/" target="_blank" rel="noopener noreferrer">&ensp;Mail.ru Group</a>*/}
+            {/*</p>*/}
+            {/*<p className={styles.position}>Full Stack JavaScript Developer ( <span className={styles.links}>*/}
+            {/*    <a href="https://drive.google.com/open?id=1rGzfhv_1V0DrsqZj8AJjNY32Kooyyt2-" target="_blank"*/}
+            {/*       rel="noopener noreferrer">Certificate </a></span> )*/}
+            {/*</p>*/}
         </article>
     );
 }
