@@ -47,7 +47,7 @@ export function Milestones() {
                         performance to the new level by using Dart Isolate.<br/>
                         In this project my role is:<br/>
                         - developing/supporting the whole trading section and its logic such as:
-                        create/close an instant trade, place/delete pending order, modifying existent tades and orders;<br/>
+                        create/close an instant trade, place/delete pending order, modifying existing trades and orders;<br/>
                         - implementation of a Quotes Watchlist by means of Web Sockets in private Isolate;<br/>
                         - control and resume stable connection to web sockets and other services of InstaForex upon
                         Internet connection was lost/resumed;<br/>
