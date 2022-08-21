@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Milestones.module.css';
-import ForexCopy from '../../assets/img/ForexCopy.png';
 
 export function Milestones() {
     return (
@@ -12,7 +11,9 @@ export function Milestones() {
             <h3 className='text-center mb-3 text-info'>Professional Experience</h3>
 
             <p className={styles.heading}>April 2020 – Present</p>
-            <p className={styles.position}>Online Media Solutions Corp.</p>
+            <p className={styles.position}>
+                <a target="_blank" rel="noopener noreferrer" href='https://www.instaforex.com/'>InstaForex</a>
+                &nbsp;(Online Media Solutions Corp.)</p>
             <p className={styles.position}>React Native/Flutter Developer</p>
             <ul className={styles.list}>
                 <li className="">Fully remote work via JIRA, Confluence, Skype, Telegram.</li>
@@ -43,9 +44,14 @@ export function Milestones() {
                         the scratch named <a
                         href="https://play.google.com/store/apps/details?id=com.instaforex.mobiletrader" target="_blank"
                         rel="noopener noreferrer">InstaForex</a>&nbsp;in order to apply a new design and boost its
-                        performance to the new level.<br/>
-                        Development in the final stage.
-
+                        performance to the new level by using Dart Isolate.<br/>
+                        In this project my role is:<br/>
+                        - developing/supporting the whole trading section and its logic such as:
+                        create/close an instant trade, place/delete pending order, modifying existent tades and orders;<br/>
+                        - implementation of a Quotes Watchlist by means of Web Sockets in private Isolate;<br/>
+                        - control and resume stable connection to web sockets and other services of InstaForex upon
+                        Internet connection was lost/resumed;<br/>
+                        - etc.
                     </li>
                 </ul>
             </ul>
@@ -58,15 +64,6 @@ export function Milestones() {
                 </li>
                 <li className="">
                     Both Vanilla or jQuery + Bootstrap JavaScript-based web sites and User Interfaces.
-                </li>
-                <li className="">
-                    In order to solidify my skills in React and NodeJS, I am developing a sort of lite version of
-                    &ensp;<a href="https://insta-andrey-f.web.app/" target="_blank"
-                             rel="noopener noreferrer">Instagram</a>. This is a client-server application
-                    with various stack: HTML5, CSS3+SASS (moduled),JavaScript (ES5, ES6+), React JS, Redux and other
-                    middlewares,
-                    Google iCloud Firebase uses as a server. <br/>Currently – I'm re-writing a new
-                    version from the scratch having added TypeScript and Node.JS + MongoDB + GraphQL on the backend.
                 </li>
             </ul>
             <p className={styles.heading}>Sep 2019 – Dec 2019, Russian Federation</p>
@@ -84,7 +81,54 @@ export function Milestones() {
                     app and a "Scrum team" and its work
                 </li>
             </ul>
+
+            {/* Self Education & Trainings */}
+
             <h3 className='text-center mb-3 text-info'>Self Education & Trainings</h3>
+            <br/>
+
+            <p className={styles.heading}>Jul 2020 – present</p>
+            <p className={styles.heading}>
+                <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x" target="_blank"
+                   rel="noopener noreferrer">CS50's </a> - <b>Harvard University</b> course taught by David J. Malan - "Introduction to Computer Science"
+                (<span className={styles.links}>
+                <a href="https://submit.cs50.io/users/fufylev" target="_blank"
+                   rel="noopener noreferrer">80% progress</a></span>).
+            </p>
+            <p>~~~~</p>
+            <p className='mb-2'/>
+
+            <p className={styles.heading}>Jul 2020 – present</p>
+            <p className={styles.heading}>
+                <a href="https://github.com/fufylev/algorithms_theory" target="_blank"
+                   rel="noopener noreferrer">Algorithms in Python 3</a> - theoretical course, <b>Moscow Institute of Physics and Technology</b>.
+            </p>
+            <p>~~~~</p>
+            <p className='mb-2'/>
+
+            <p className={styles.heading}>Jan 2020 – Apr 2020</p>
+            <p className={styles.heading}>
+                <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank"
+                   rel="noopener noreferrer">Udacity </a>Nano Degree Program - "Become a React Developer"
+            </p>
+            <p className={styles.position}>React & React Native ( <span className={styles.links}>
+                <a href="https://confirm.udacity.com/239UATAS" target="_blank"
+                   rel="noopener noreferrer">Certificate </a></span> )
+            </p>
+            <p>~~~~</p>
+            <p className='mb-2'/>
+
+            <p className={styles.heading}>March 2020</p>
+            <p className={styles.heading}>
+                <a href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer">Udemy</a>&ensp;online courses
+            </p>
+            <p className={styles.position}>React Native Development ( <span className={styles.links}>
+                <a href="https://www.udemy.com/certificate/UC-d411e1dc-5422-4644-8fe1-4cdf99117501/" target="_blank"
+                   rel="noopener noreferrer">Certificate </a></span> )
+            </p>
+            <p>~~~~</p>
+            <p className='mb-2'/>
+
             <p className={styles.heading}>March 2018 – Dec 2019</p>
             <p className={styles.heading}>
                 <a href="https://geekbrains.ru/" target="_blank" rel="noopener noreferrer">GeekBrains</a> online
@@ -99,27 +143,9 @@ export function Milestones() {
 
 
 
-            <span className={styles.heading}>Jan 2020 – Apr 2020</span> {/*&emsp; <span
-            style={{fontSize: 20, color: "red", fontWeight: "bold"}}>New!!!</span>*/}
-            <p className={styles.heading}>
-                <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank"
-                   rel="noopener noreferrer">Udacity </a>Nano Degree Program - "Become a React Developer"
-            </p>
-            <p className={styles.position}>React & React Native ( <span className={styles.links}>
-                <a href="https://confirm.udacity.com/239UATAS" target="_blank"
-                   rel="noopener noreferrer">Certificate </a></span> )
-            </p>
-            <p className='mb-5'/>
 
-            <p className={styles.heading}>March 2020</p>
-            <p className={styles.heading}>
-                <a href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer">Udemy</a>&ensp;online courses
-            </p>
-            <p className={styles.position}>React Native Development ( <span className={styles.links}>
-                <a href="https://www.udemy.com/certificate/UC-d411e1dc-5422-4644-8fe1-4cdf99117501/" target="_blank"
-                   rel="noopener noreferrer">Certificate </a></span> )
-            </p>
-            <p className='mb-5'/>
+
+
             {/*<p className={styles.heading}>Jan 2020 – Apr 2020</p>*/}
             {/*<p className={styles.heading}>*/}
             {/*    <a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank"*/}

@@ -10,6 +10,8 @@ import {Dev} from './Dev';
 import {GitHubLink} from './GitHubLink';
 import ForexCopy from '../../assets/img/ForexCopy.png';
 import Instaverify from '../../assets/img/Instaverify.png';
+import Favicon from '../../assets/img/favicon.png';
+import InstaForex from '../../assets/img/216.png';
 
 export function Projects() {
     const linksGitHub = {
@@ -22,6 +24,7 @@ export function Projects() {
         flash_cards: 'https://github.com/fufylev/mobile-flashcards',
         todoSocket: 'https://github.com/fufylev/node.js-25.06/tree/master/Andrey_Fufylev/todo_Vue_token_web_socket',
         quotes: 'https://github.com/fufylev/real-time-quotes',
+        num: 'https://github.com/fufylev/ReactFBReduxTKNumerology',
     };
 
     return (
@@ -52,7 +55,6 @@ export function Projects() {
                             <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components + Hooks, back-end
                             - Google Cloud FireStore DataBase, NodeJS.
                         </p>
-                        {/*<Dev />*/}
                         <GitHubLink link={linksGitHub.insta}/>
                         <a
                             href="https://insta-andrey-f.firebaseapp.com/"
@@ -74,20 +76,47 @@ export function Projects() {
                             </smal>
                         </div>
                     </div>
+                    <div style={{
+                        position: "absolute",
+                        top: 20,
+                        right: 20,
+                        // color: "red",
+                        // fontWeight: "",
+                        fontSize: 20
+                    }}>Old (2020)
+                    </div>
                 </div>
 
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
-                        <img src={team} alt="TODO" className={styles.img}/>
-                        <p className={styles.head}>Corporate network Task Manager (socket.io)</p>
+                        <img src={Favicon} alt="TODO" className={styles.img}/>
+                        <p className={styles.head}>Numerology</p>
                         <p className={styles.content}>
-                            A web based app that lets a user to read, check and alter all tasks in real-time within the
-                            corporate network.
-                            <br/><strong>Stack:</strong> JS(ES6+), <span className={styles.vue}>VueJS <i
-                            className="fab fa-vuejs"></i> </span>+ Styled CSS, NodeJS, MongoDB + Mongoose, socket.io,
-                            jwt token
+                            A private project for my sister which I lead from the scratch - this is a second version with lots of improvements.
+                            The project gonna be a commercial, thus later I will make it private when I comes to multiuser mode.
+                            Currently this project helps my sister to prepare to client consulting by entering the client's data into forms and and
+                            receiving a prepared page with necessary data and graphics made inside a canvas.
+                            <br/><br/><strong>Stack:</strong> TypeScript, JS, Redux toolkit, Kanva + React-Kanva
                         </p>
-                        <GitHubLink link={linksGitHub.todoSocket}/>
+                        <GitHubLink link={linksGitHub.num}/>
+                        <a
+                            href="https://kravchenko-numerolog.web.app"
+                            className={styles.linkWeb}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>https://kravchenko-numerolog.web.app</span>
+                        </a>
+                        <Dev />
+                    </div>
+                    <div style={{
+                        position: "absolute",
+                        top: 20,
+                        right: 20,
+                        color: "red",
+                        // fontWeight: "",
+                        fontSize: 20
+                    }}>New (2022)
                     </div>
                 </div>
             </div>
@@ -117,17 +146,18 @@ export function Projects() {
                             (mobx-state-tree), React Navigation,
                             React-Native-Reanimated animations, WebView, etc.
                         </p>
+                        <p className={styles.content}>In production since Apr, 2021</p>
                         <Dev/>
                     </div>
-                   {/* <div style={{
+                    <div style={{
                         position: "absolute",
                         top: 20,
                         right: 20,
                         color: "red",
-                        fontWeight: "bold",
+                        // fontWeight: "bold",
                         fontSize: 20
-                    }}>New !!!
-                    </div>*/}
+                    }}>2020-2021
+                    </div>
                 </div>
 
                 <div className={styles.cardContainer}>
@@ -149,17 +179,18 @@ export function Projects() {
                             Navigation,
                             React-Native-Reanimated animations, WebView, etc.
                         </p>
+                        <p className={styles.content}>In production since Feb, 2020</p>
                         <Dev/>
                     </div>
-                    {/*<div style={{
+                    <div style={{
                         position: "absolute",
                         top: 20,
                         right: 20,
                         color: "red",
-                        fontWeight: "bold",
+                        // fontWeight: "bold",
                         fontSize: 20
-                    }}>New !!!
-                    </div>*/}
+                    }}>2020-2021
+                    </div>
                 </div>
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
@@ -175,10 +206,11 @@ export function Projects() {
                                target="_blank"
                                rel="noopener noreferrer">iOS</a>&nbsp;
                             of the InstaForex trading account in your mobile.
-                            <br/><strong>Stack:</strong> TypeScript only(ES6+), React Native, MST (mobx-state-tree) +
+                            <br/><br/><strong>Stack:</strong> TypeScript only(ES6+), React Native, MST (mobx-state-tree) +
                             MobX, React Navigation, &nbsp;
                             <strong>React-Reanimated v.2</strong> animations, WebView, <strong>Rive animation</strong>, etc.
                         </p>
+                        <p className={styles.content}>In production since Feb, 2020</p>
                         <Dev/>
                     </div>
                     <div style={{
@@ -186,31 +218,39 @@ export function Projects() {
                         top: 20,
                         right: 20,
                         color: "red",
-                        fontWeight: "bold",
+                        // fontWeight: "bold",
                         fontSize: 20
-                    }}>New !!!
+                    }}>2021
                     </div>
                 </div>
 
 
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
-                        <img src={forex} alt="Quotes" className={styles.img}/>
-                        <p className={styles.head}>Quotes (Socket.IO)</p>
+                        <img src={InstaForex} alt="Quotes" className={styles.img}/>
+                        <p className={styles.head}>InstaForex: Quotes & Trading</p>
                         <p className={styles.content}>
-                            A simple app indicating currency pair quotes and their details in real time<br/>
-                            React Context used as an app state management - no redux
-                            <br/><br/><strong>Stack:</strong> JS(ES6+), React Native - hooks only, Socket.IO, React
-                            Context
+                            Reverse engineering of the existing application from <strong>React Native</strong> into <strong>Flutter</strong> from the scratch
+                            named&nbsp;
+                            <a href="https://play.google.com/store/apps/details?id=com.instaforex.mobiletrader"
+                               target="_blank"
+                               rel="noopener noreferrer">InstaForex</a>&nbsp;
+                            in order to apply a new design, new version of API and boost its performance to the new level by using Dart Isolate.
+                            <br/><br/><strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC + @freezed, Provider, Rive, Web Sockets,
+                            WebView, Dio as Http, MVVM, Isolates and many others techs.
                         </p>
 
-                        <GitHubLink link={linksGitHub.quotes}/>
-                        <a href="https://expo.io/@fufylev/real-time-quotes" className={styles.link}
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            <img src={expoText} alt="expo" style={{width: 20, height: 20}}/>&ensp;
-                            <span>Published on Expo </span>
-                        </a>
+                        <p className={styles.content}>In production since Apr, 2022. The iOS version is under release</p>
+                        <Dev/>
+                    </div>
+                    <div style={{
+                        position: "absolute",
+                        top: 20,
+                        right: 20,
+                        color: "red",
+                        // fontWeight: "bold",
+                        fontSize: 20
+                    }}>New! (2022)
                     </div>
                 </div>
             </div>

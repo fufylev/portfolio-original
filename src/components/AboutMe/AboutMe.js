@@ -21,51 +21,56 @@ export function AboutMe() {
             </p>
             <h5>Languages I speak:</h5>
             <p className={styles.text}>
-                Advanced in both <strong>English</strong> and <strong>JavaScript(TypeScript)</strong>
+                Advanced in both <strong>English</strong> and <strong>JavaScript (TypeScript)</strong>
             </p>
             <h5>My stack:</h5>
             <ul className={styles.text}>
                 <li>
-                    HTML5 + CSS3 + Styled Components
+                    HTML5, CSS3, Styled Components, SASS, BEM
                 </li>
                 <li>React & React Native</li>
                 <li>Dart & Flutter</li>
-                <li>Vue JS - basic skills</li>
-                <li>Redux, MobX, MST</li>
-                <li>Thunk, Saga</li>
+                <li>Redux, Redux toolkit, MobX, MST</li>
                 <li>
                     <a
-                        href="https://github.com/fufylev/VenedorGreenResponsive"
+                        href="https://github.com/fufylev/jquery_js_todo_app"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        JavaScript (ES6+) + TypeScript
+                        JavaScript(ES6+)
+                    </a>
+                    &nbsp;and&nbsp;
+                    <a
+                        href="https://github.com/fufylev/ReactFBReduxTKNumerology"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        TypeScript
                     </a>
                 </li>
 
                 <li>
                     <a
-                        href="https://github.com/fufylev/node.js-25.06/tree/master/Andrey_Fufylev/CRUD_interface"
+                        href="https://github.com/fufylev/lite-insta-v2/tree/master/server"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        NodeJS{' '}
+                        NodeJS
                     </a>
-                    - basic skills (server, http,&nbsp;
-                    <a
-                        href="https://github.com/fufylev/node.js-25.06/tree/master/Andrey_Fufylev/todo_Vue_token_web_socket"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        web sockets
-                    </a>
-                    )
+                    &nbsp;- basic skills (server, http)
+
                 </li>
-                <li>MongoDB - basic skills</li>
-                <li>Trello, Scrum team work</li>
+                <li> <a
+                    href="https://github.com/fufylev/lite-insta-v2/tree/master/server/models"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    MongoDB
+                </a>
+                    &nbsp;- basic skills</li>
+                <li>Trello, Agile, Scrum team work</li>
                 <li>Git, GitHub</li>
-
-                <li>Terminal, Docker</li>
+                <li>Terminal</li>
             </ul>
         </article>
     );
