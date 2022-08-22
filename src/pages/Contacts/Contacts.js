@@ -31,11 +31,11 @@ export class Contacts extends Component {
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>Telegram: </strong>
-                    <span className={styles.link}>@Andrei_Fufylev </span>
+                    <span className={styles.link}>@andrey_fufylev </span>
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>Skype: </strong>
-                    <span className={styles.link}>fufylev </span>
+                    <span className={styles.link}>live:.cid.97c9cccbfdcfb705 </span>
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>GitHub: </strong>
