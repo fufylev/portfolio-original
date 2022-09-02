@@ -38,7 +38,42 @@ export function Projects() {
 
             <p className={styles.headingText}>Here are a few projects I've worked on recently.</p>
             <h3 className="text-center my-5 text-info">
-                React JS: &ensp;
+                Flutter
+            </h3>
+            <div className={styles.cardsContainer}>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={InstaForex} alt="Quotes" className={styles.img}/>
+                        <p className={styles.head}>InstaForex: Quotes & Trading</p>
+                        <p className={styles.content}>
+                            Reverse engineering of the existing application from <strong>React Native</strong> into <strong>Flutter</strong> from the scratch
+                            named&nbsp;
+                            <a href="https://play.google.com/store/apps/details?id=com.instaforex.mobiletrader"
+                               target="_blank"
+                               rel="noopener noreferrer">InstaForex</a>&nbsp;
+                            in order to apply a new design, new version of API and boost its performance to the new level by using Dart Isolate.
+                            <br/><br/><strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC + @freezed, Provider, Rive, Web Sockets,
+                            WebView, Dio as Http, MVVM, Isolates and many others techs.
+                        </p>
+
+                        <p className={styles.content}>In production since Apr, 2022. The iOS version is under release</p>
+                        <Dev/>
+                    </div>
+                    <div style={{
+                        position: "absolute",
+                        top: 20,
+                        right: 20,
+                        color: "red",
+                        // fontWeight: "bold",
+                        fontSize: 20
+                    }}>New! (2022)
+                    </div>
+                </div>
+            </div>
+
+            <h3 className="text-center my-5 text-info">
+                React JS &ensp;
                 <MDBIcon fab icon="react"/>
                 &ensp; <MDBIcon icon="desktop"/>
             </h3>
@@ -49,7 +84,7 @@ export function Projects() {
                         <img src={insta} alt="Lite Insta" className={styles.img}/>
                         <p className={styles.head}> Lite Insta </p>
                         <p className={styles.content}>
-                            Sort of a lite version of an "Instagram" where I'm trying to solidify my skills in React JS
+                            Sort of a lite version of an "Instagram" where I was trying to solidify my skills in React JS
                             and Rest API and apply all cutting-edge tools &ensp;
                             <MDBIcon icon="code" className="m-0 p-0"/>
                             <br/><strong>Stack:</strong> JSX + SASS, JS(ES6+), React Components + Hooks, back-end
@@ -122,7 +157,7 @@ export function Projects() {
             </div>
 
             <h3 className="text-center my-5 text-info">
-                React Native:&ensp;
+                React Native &ensp;
                 <MDBIcon fab icon="react"/>
                 &ensp; <i className="fab fa-apple"></i>&ensp;
                 <MDBIcon fab icon="android"/>
@@ -225,34 +260,6 @@ export function Projects() {
                 </div>
 
 
-                <div className={styles.cardContainer}>
-                    <div className={styles.card}>
-                        <img src={InstaForex} alt="Quotes" className={styles.img}/>
-                        <p className={styles.head}>InstaForex: Quotes & Trading</p>
-                        <p className={styles.content}>
-                            Reverse engineering of the existing application from <strong>React Native</strong> into <strong>Flutter</strong> from the scratch
-                            named&nbsp;
-                            <a href="https://play.google.com/store/apps/details?id=com.instaforex.mobiletrader"
-                               target="_blank"
-                               rel="noopener noreferrer">InstaForex</a>&nbsp;
-                            in order to apply a new design, new version of API and boost its performance to the new level by using Dart Isolate.
-                            <br/><br/><strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC + @freezed, Provider, Rive, Web Sockets,
-                            WebView, Dio as Http, MVVM, Isolates and many others techs.
-                        </p>
-
-                        <p className={styles.content}>In production since Apr, 2022. The iOS version is under release</p>
-                        <Dev/>
-                    </div>
-                    <div style={{
-                        position: "absolute",
-                        top: 20,
-                        right: 20,
-                        color: "red",
-                        // fontWeight: "bold",
-                        fontSize: 20
-                    }}>New! (2022)
-                    </div>
-                </div>
             </div>
         </article>
     );

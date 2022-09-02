@@ -74,7 +74,8 @@ export function Milestones() {
                 <li>
                     I and other several students were creating an MVP version of the client-server application named
                     "English Learning Application". I was responsible for creating the front-end User-Interface and its
-                    logic using a stack of React, Redux, Bootstrap as well as native HTML+CSS (my commits)
+                    logic using a stack of React, Redux, Bootstrap as well as native HTML+CSS&nbsp;
+                    <a href="https://github.com/daawud/English-learning-App/commits?author=fufylev">(my commits)</a>&nbsp;
                 </li>
                 <li>
                     During this internship, I have developed my skills in team-building and got acquainted with "Trello"
@@ -87,21 +88,29 @@ export function Milestones() {
             <h3 className='text-center mb-3 text-info'>Self Education & Trainings</h3>
             <br/>
 
-            <p className={styles.heading}>Jul 2020 – present</p>
+            <p className={styles.heading}>Aug 2022 – present</p>
             <p className={styles.heading}>
-                <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x" target="_blank"
-                   rel="noopener noreferrer">CS50's </a> - <b>Harvard University</b> course taught by David J. Malan - "Introduction to Computer Science"
-                (<span className={styles.links}>
-                <a href="https://submit.cs50.io/users/fufylev" target="_blank"
-                   rel="noopener noreferrer">80% progress</a></span>).
+                <a href="https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures" target="_blank"
+                   rel="noopener noreferrer">Algorithms and Data Structures </a> - MicroMasters® Program, <b>University of California San Diego</b>
             </p>
             <p>~~~~</p>
             <p className='mb-2'/>
 
-            <p className={styles.heading}>Jul 2020 – present</p>
+            <p className={styles.heading}>Jul 2022 – present</p>
             <p className={styles.heading}>
                 <a href="https://github.com/fufylev/algorithms_theory" target="_blank"
                    rel="noopener noreferrer">Algorithms in Python 3</a> - theoretical course, <b>Moscow Institute of Physics and Technology</b>.
+            </p>
+            <p>~~~~</p>
+            <p className='mb-2'/>
+
+            <p className={styles.heading}>Jul 2022 – Aug 2022</p>
+            <p className={styles.heading}>
+                <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x" target="_blank"
+                   rel="noopener noreferrer">CS50's </a> - <b>Harvard University</b> course taught by David J. Malan - "Introduction to Computer Science"
+                {/*(<span className={styles.links}>*/}
+                {/*<a href="https://submit.cs50.io/users/fufylev" target="_blank"*/}
+                {/*   rel="noopener noreferrer">80% progress</a></span>).*/}
             </p>
             <p>~~~~</p>
             <p className='mb-2'/>
