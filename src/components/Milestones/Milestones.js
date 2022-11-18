@@ -10,7 +10,22 @@ export function Milestones() {
 
             <h3 className='text-center mb-3 text-info'>Professional Experience</h3>
 
-            <p className={styles.heading}>April 2020 – Present</p>
+            <p className={styles.heading}>October 2022 – Present</p>
+            <p className={styles.position}>
+                <a target="_blank" rel="noopener noreferrer" href='https://www.eng.atb.su/'>"Asian-Pacific Bank" JSC</a>
+            </p>
+            <p className={styles.position}>Senior Flutter developer</p>
+            <ul className={styles.list}>
+                <li className="">Dart, Flutter, BLoC, Provider</li>
+                <li className=""><b><i>retrofit, built_value, auto_route, get_it, doc_widget, drift(SQL)</i></b> libraries in use</li>
+                <li className="">"Clean Architecture" as main pattern</li>
+                <li className="">Multi-modules project</li>
+                <li className="">Agile, Confluence, Jira, GitLab</li>
+            </ul>
+            <br/>
+
+
+            <p className={styles.heading}>April 2020 – September 2022</p>
             <p className={styles.position}>
                 <a target="_blank" rel="noopener noreferrer" href='https://www.instaforex.com/'>InstaForex</a>
                 &nbsp;(Online Media Solutions Corp.)</p>
@@ -91,7 +106,9 @@ export function Milestones() {
             <p className={styles.heading}>Aug 2022 – present</p>
             <p className={styles.heading}>
                 <a href="https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures" target="_blank"
-                   rel="noopener noreferrer">Algorithms and Data Structures </a> - MicroMasters® Program, <b>University of California San Diego</b>
+                   rel="noopener noreferrer">Algorithms and Data Structures </a> - MicroMasters® Program, <b>University of California San Diego</b>&nbsp;
+                (<a href="https://github.com/fufylev/algorithms_and_data_structures" target="_blank"
+                   rel="noopener noreferrer">code records</a>)
             </p>
             <p>~~~~</p>
             <p className='mb-2'/>
