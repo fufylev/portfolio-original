@@ -18,7 +18,7 @@ export function Milestones() {
             <ul className={styles.list}>
                 <li className="">Dart, Flutter, BLoC, Provider</li>
                 <li className=""><b><i>retrofit, built_value, auto_route, get_it, doc_widget, drift(SQL)</i></b> libraries in use</li>
-                <li className=""><a target="_blank" rel="noopener noreferrer" href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">"Clean Architecture"</a> as main pattern</li>
+                <li className=""><a target="_blank" rel="noopener noreferrer" href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">"Clean Architecture"</a> as the main pattern</li>
                 <li className="">Multi-modules project</li>
                 <li className="">Agile, Confluence, Jira, GitLab</li>
             </ul>
