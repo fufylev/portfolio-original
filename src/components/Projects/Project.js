@@ -128,7 +128,7 @@ export function Projects() {
                         <p className={styles.head}>Numerology</p>
                         <p className={styles.content}>
                             A private project for my sister which I lead from the scratch - this is a second version with lots of improvements.
-                            The project gonna be a commercial, thus later I will make it private when I comes to multiuser mode.
+                            The project gonna be a commercial, thus later I will make it private when it comes to multiuser mode.
                             Currently this project helps my sister to prepare to client consulting by entering the client's data into forms and and
                             receiving a prepared page with necessary data and graphics made inside a canvas.
                             <br/><br/><strong>Stack:</strong> TypeScript, JS, Redux toolkit, Kanva + React-Kanva
