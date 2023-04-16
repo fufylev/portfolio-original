@@ -5,14 +5,26 @@ export function Milestones() {
     return (
         <article className={styles.career}>
 
-            <h2 className={styles.title}> Milestones </h2>
+            <h2 className={styles.title}> Milestones </h2> 
 
 
             <h3 className='text-center mb-3 text-info'>Professional Experience</h3>
 
+            <p className={styles.heading}>November 2022 – Present</p>
+            <p className={styles.position}>
+                <a target="_blank" rel="noopener noreferrer" href='https://ieye.io/'>ieye core</a>&nbsp;(part-time)
+            </p>
+            <p className={styles.position}>FrontEnd Lead/Senior Flutter developer</p>
+            <ul className={styles.list}>
+                <li className="">Dart, Flutter, BLoC, Clean Architecture</li>
+                <li className="">CI/CD · Apple Connect</li>
+                <li className="">Mapbox · Geo Hash</li>
+            </ul>
+            <br/> 
+
             <p className={styles.heading}>October 2022 – Present</p>
             <p className={styles.position}>
-                <a target="_blank" rel="noopener noreferrer" href='https://www.eng.atb.su/'>"Asian-Pacific Bank" JSC</a>
+                <a target="_blank" rel="noopener noreferrer" href='https://www.eng.atb.su/'>"Asian-Pacific Bank" JSC</a>&nbsp;(full-time)
             </p>
             <p className={styles.position}>Senior Flutter developer</p>
             <ul className={styles.list}>
@@ -22,13 +34,13 @@ export function Milestones() {
                 <li className="">Multi-modules project</li>
                 <li className="">Agile, Confluence, Jira, GitLab</li>
             </ul>
-            <br/>
+            <br/> 
 
 
             <p className={styles.heading}>April 2020 – September 2022</p>
             <p className={styles.position}>
-                <a target="_blank" rel="noopener noreferrer" href='https://www.instaforex.com/'>InstaForex</a>
-                &nbsp;(Online Media Solutions Corp.)</p>
+                <a target="_blank" rel="noopener noreferrer" href='https://www.instaforex.com/'>InstaForex</a>&nbsp;(full-time)
+            </p>
             <p className={styles.position}>React Native/Flutter Developer</p>
             <ul className={styles.list}>
                 <li className="">Fully remote work via JIRA, Confluence, Skype, Telegram.</li>
