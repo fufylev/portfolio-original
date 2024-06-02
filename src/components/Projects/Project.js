@@ -12,6 +12,8 @@ import ForexCopy from '../../assets/img/ForexCopy.png';
 import Instaverify from '../../assets/img/Instaverify.png';
 import Favicon from '../../assets/img/favicon.png';
 import InstaForex from '../../assets/img/216.png';
+import ATB from '../../assets/img/atb.png';
+import RBT from '../../assets/img/rbt.png';
 
 export function Projects() {
     const linksGitHub = {
@@ -40,7 +42,58 @@ export function Projects() {
             <h3 className="text-center my-5 text-info">
                 Flutter
             </h3>
+         
             <div className={styles.cardsContainer}>
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={RBT} alt="RBT.ru" className={styles.img}/>
+                        <p className={styles.head}>RBT.ru client app (b2c)</p>
+                        <p className={styles.content}>
+                            Developing a marketing/retail app from the scratch named <strong>RBT.ru</strong>.
+                            <br/><br/><strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC, Provider, Rive, Yandex Map, QR-scanner, etc.
+                        </p>
+
+                        <p className={styles.content}>To be in production<br/>in summer of 2024.</p>
+                        <Dev/>
+                    </div>
+                    <div style={{
+                        position: "absolute",
+                        top: 20,
+                        right: 20,
+                        color: "red",
+                        fontSize: 20
+                    }}>2023 - now
+                    </div>
+                </div>
+
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={ATB} alt="Atb Bank" className={styles.img}/>
+                        <p className={styles.head}>Asian-Pacific Bank mobile app</p>
+                        <p className={styles.content}>
+                            Developing a bank app from the scratch named&nbsp;
+                            <a href="https://play.google.com/store/apps/details?id=su.atb.mobileapp"
+                               target="_blank"
+                               rel="noopener noreferrer">Atb Bank (android)</a>,
+                               &nbsp;
+                            <a href="https://apps.apple.com/app/id1604332202"
+                               target="_blank"
+                               rel="noopener noreferrer">Atb Bank (iOS)</a>.
+                            <br/><br/><strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC, Provider, Rive, Yandex Map.
+                        </p>
+
+                        <p className={styles.content}>In production since Apr, 2023.</p>
+                        <Dev/>
+                    </div>
+                    <div style={{
+                        position: "absolute",
+                        top: 20,
+                        right: 20,
+                        color: "red",
+                        fontSize: 20
+                    }}>2022-2023
+                    </div>
+                </div>
 
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
@@ -65,9 +118,8 @@ export function Projects() {
                         top: 20,
                         right: 20,
                         color: "red",
-                        // fontWeight: "bold",
                         fontSize: 20
-                    }}>New! (2022)
+                    }}>2021-2022
                     </div>
                 </div>
             </div>

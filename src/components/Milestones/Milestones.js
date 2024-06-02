@@ -10,6 +10,20 @@ export function Milestones() {
 
             <h3 className='text-center mb-3 text-info'>Professional Experience</h3>
 
+            <p className={styles.heading}>December 2023 – Present</p>
+            <p className={styles.position}>
+                <a target="_blank" rel="noopener noreferrer" href='https://www.rbt.ru/'>RBT.ru</a>&nbsp;(full-time)
+            </p>
+            <p className={styles.position}>Senior Flutter developer</p>
+            <ul className={styles.list}>
+                <li className="">Dart, Flutter, BLoC, Provider</li>
+                <li className=""><b><i>retrofit, built_value, auto_route, get_it, doc_widget, drift(SQL)</i></b> libraries in use</li>
+                <li className=""><a target="_blank" rel="noopener noreferrer" href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">"Clean Architecture"</a> as the main pattern</li>
+                <li className="">Multi-modules project</li>
+                <li className="">Agile, Confluence, Jira, GitLab</li>
+            </ul>
+            <br/>
+
             <p className={styles.heading}>November 2022 – Present</p>
             <p className={styles.position}>
                 <a target="_blank" rel="noopener noreferrer" href='https://ieye.io/'>ieye core</a>&nbsp;(part-time)
@@ -22,7 +36,7 @@ export function Milestones() {
             </ul>
             <br/> 
 
-            <p className={styles.heading}>October 2022 – Present</p>
+            <p className={styles.heading}>October 2022 – Novemver 2023</p>
             <p className={styles.position}>
                 <a target="_blank" rel="noopener noreferrer" href='https://www.eng.atb.su/'>"Asian-Pacific Bank" JSC</a>&nbsp;(full-time)
             </p>
