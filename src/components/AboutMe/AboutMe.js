@@ -12,7 +12,8 @@ export function AboutMe() {
             <p className={styles.text}>
                 I'm a motivated and results-focused professional in producing robust code with extensive experience in
                 developing web-based and cross-platform mobile applications by leveraging various development tools and
-                frameworks such as <strong><i>React Native</i></strong> or <strong><i>Flutter</i></strong>.
+                frameworks such as <strong><i>React Native</i></strong> or <strong><i>Flutter</i></strong>. Since 2021 I am practicing only <strong><i>Dart + Flutter</i></strong> 
+                &nbsp;- it is my main mobile development stack, as for React and React Native I simply support old code on rare occasions in the projects I leaded.
             </p>
             <p className={styles.text}>
                 I'm eager to support the dev team with top-notch coding skills. I'm quietly confident, naturally curious
@@ -26,6 +27,7 @@ export function AboutMe() {
             <h5>My stack:</h5>
             <ul className={styles.text}>
                 <li>Dart & Flutter (practicing since 2020)</li> 
+                <li>BLoC, Provider, retrofit, built_value, auto_route, get_it, doc_widget, sqlite3_flutter_libs + drift (SQL), Dart sealed-base classes state management, etc.</li>
                 <li>Jira, Confluence, Yougile, Trello, Agile, Scrum team work</li>
                 <li>Git, Gitlab, GitHub, Terminal</li>
                 <br/>

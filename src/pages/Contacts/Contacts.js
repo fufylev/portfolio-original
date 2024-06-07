@@ -16,7 +16,6 @@ export class Contacts extends Component {
                 <div className={styles.elem}>
                     <strong className={styles.text}>Phone: </strong>
                     <p className={styles.link}>+7(982) 143 44 75 (WhatsApp, Viber) </p>
-                    <p className={styles.link}>+7(938) 544 60 36 (Telegram) </p>
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>Email: </strong>
@@ -31,7 +30,7 @@ export class Contacts extends Component {
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>Telegram: </strong>
-                    <span className={styles.link}>@andrey_fufylev </span>
+                    <span className={styles.link}>@andrei_fufylev </span>
                 </div>
                 <div className={styles.elem}>
                     <strong className={styles.text}>Skype: </strong>
