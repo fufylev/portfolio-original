@@ -42,7 +42,7 @@ export function Projects() {
             </h3>
 
             <div className={styles.cardsContainer}>
-                <div className={styles.cardContainer}>
+                {/* <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <img src={IEYE} alt="ieye.app" className={styles.img} />
                         <p className={styles.head}>iEYE core (b2c)</p>
@@ -69,7 +69,7 @@ export function Projects() {
                         fontSize: 16
                     }}>2022 - now
                     </div>
-                </div>
+                </div> */}
 
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>

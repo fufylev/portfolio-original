@@ -24,7 +24,7 @@ export function Milestones() {
             </ul>
             <br />
 
-            <p className={styles.heading}>November 2022 – Present</p>
+            {/* <p className={styles.heading}>November 2022 – Dec 2024</p>
             <p className={styles.position}>
                 <a target="_blank" rel="noopener noreferrer" href='https://ieye.io/'>ieye core</a>&nbsp;(part-time)
             </p>
@@ -34,7 +34,7 @@ export function Milestones() {
                 <li className="">CI/CD · Apple Connect</li>
                 <li className="">Mapbox · Geo Hash</li>
             </ul>
-            <br />
+            <br /> */}
 
             <p className={styles.heading}>October 2022 – Novemver 2023</p>
             <p className={styles.position}>

@@ -9,7 +9,7 @@ export function Docs() {
             <p className={styles.headingText}>
                 My resume -&ensp;
                 <a
-                    href="https://docs.google.com/document/d/1Qx_DSviBgsMe4nUZfYezOgQkL7QYVBjZ/edit?usp=sharing&ouid=117842446258296907485&rtpof=true&sd=true"
+                    href="https://docs.google.com/document/d/1T2bXnjFWz9q1jag433AUYscXAClrVK0q/edit?usp=drive_link&ouid=117842446258296907485&rtpof=true&sd=true"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
