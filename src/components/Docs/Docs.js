@@ -9,24 +9,25 @@ export function Docs() {
             <p className={styles.headingText}>
                 My resume -&ensp;
                 <a
-                    href="https://docs.google.com/document/d/1T2bXnjFWz9q1jag433AUYscXAClrVK0q/edit?usp=drive_link&ouid=117842446258296907485&rtpof=true&sd=true"
+                    href="https://drive.google.com/file/d/13w0hjj67q3VOcRg-VnCk8sN-y70BFXqw/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    MS Word format&ensp;<MDBIcon icon="external-link-alt" />
+                    PDF format&ensp;
+                    <MDBIcon icon="external-link-alt" />
                 </a>
             </p>
             <p className={styles.headingText}>
-                English test - IELTS certificate (March 23d, 2019)  -&ensp;
+                English test - IELTS certificate (March 23d, 2019) -&ensp;
                 <a
                     href="https://drive.google.com/open?id=1VUU10PN3NfmzJU6qR9WRLtbxESfxAEPU"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    PDF copy&ensp;<MDBIcon icon="external-link-alt" />
+                    PDF copy&ensp;
+                    <MDBIcon icon="external-link-alt" />
                 </a>
             </p>
-            <p className={styles.headingText}> This block is being developed.... To be updated soon</p>
         </article>
     );
 }

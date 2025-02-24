@@ -32,14 +32,10 @@ export function Projects() {
             <h3 className={styles.title}>My recent work</h3>
             <p className={styles.headingText}>
                 I'm a bit of a digital product junky <MDBIcon far icon="smile-beam" />. Over the years, I've used
-                hundreds of web and mobile apps in different industries and verticals. Eventually, I decided that it
-                would be a fun challenge to try designing and building my own.
+                hundreds of web and mobile apps in different industries and verticals. Here are a few projects I've
+                worked on recently.
             </p>
-
-            <p className={styles.headingText}>Here are a few projects I've worked on recently.</p>
-            <h3 className="text-center my-5 text-info">
-                Flutter
-            </h3>
+            <h3 className="text-center my-5 text-info">Flutter</h3>
 
             <div className={styles.cardsContainer}>
                 {/* <div className={styles.cardContainer}>
@@ -77,26 +73,41 @@ export function Projects() {
                         <p className={styles.head}>RBT.ru client app (b2c)</p>
                         <p className={styles.content}>
                             Developing a marketing/retail app from the scratch named RBT.ru&nbsp;
-                            <a href="https://play.google.com/store/apps/details?id=ru.rbt.b2c_mobile_app"
+                            <a
+                                href="https://play.google.com/store/apps/details?id=ru.rbt.b2c_mobile_app"
                                 target="_blank"
-                                rel="noopener noreferrer">(android</a>,
-                            &nbsp;
-                            <a href="https://apps.apple.com/ru/app/rbt-ru-%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8/id6615071026"
+                                rel="noopener noreferrer"
+                            >
+                                (android
+                            </a>
+                            , &nbsp;
+                            <a
+                                href="https://apps.apple.com/ru/app/rbt-ru-%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8/id6615071026"
                                 target="_blank"
-                                rel="noopener noreferrer">iOS)</a>.
-                            <br /><br /><strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC, Provider, Rive, Yandex Map, QR-scanner, etc.
+                                rel="noopener noreferrer"
+                            >
+                                iOS)
+                            </a>
+                            .
+                            <br />
+                            <br />
+                            <strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC, Provider, Rive, Yandex Map,
+                            QR-scanner, etc.
                         </p>
 
                         <p className={styles.content}>In production since June, 2024.</p>
                         <Dev />
                     </div>
-                    <div style={{
-                        position: "absolute",
-                        top: 20,
-                        right: 20,
-                        color: "red",
-                        fontSize: 16
-                    }}>2023 - now
+                    <div
+                        style={{
+                            position: 'absolute',
+                            top: 20,
+                            right: 20,
+                            color: 'red',
+                            fontSize: 16,
+                        }}
+                    >
+                        2023 - now
                     </div>
                 </div>
 
@@ -106,26 +117,35 @@ export function Projects() {
                         <p className={styles.head}>Asian-Pacific Bank mobile app</p>
                         <p className={styles.content}>
                             Developing a bank app from the scratch named&nbsp;
-                            <a href="https://play.google.com/store/apps/details?id=su.atb.mobileapp"
+                            <a
+                                href="https://play.google.com/store/apps/details?id=su.atb.mobileapp"
                                 target="_blank"
-                                rel="noopener noreferrer">Atb Bank (android)</a>,
-                            &nbsp;
-                            <a href="https://apps.apple.com/app/id1604332202"
-                                target="_blank"
-                                rel="noopener noreferrer">Atb Bank (iOS)</a>.
-                            <br /><br /><strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC, Provider, Rive, Yandex Map.
+                                rel="noopener noreferrer"
+                            >
+                                Atb Bank (android)
+                            </a>
+                            , &nbsp;
+                            <a href="https://apps.apple.com/app/id1604332202" target="_blank" rel="noopener noreferrer">
+                                Atb Bank (iOS)
+                            </a>
+                            .
+                            <br />
+                            <br />
+                            <strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC, Provider, Rive, Yandex Map.
                         </p>
 
                         <p className={styles.content}>In production since Apr, 2023.</p>
-
                     </div>
-                    <div style={{
-                        position: "absolute",
-                        top: 20,
-                        right: 20,
-                        // color: "red",
-                        fontSize: 16
-                    }}>2022-2023
+                    <div
+                        style={{
+                            position: 'absolute',
+                            top: 20,
+                            right: 20,
+                            // color: "red",
+                            fontSize: 16,
+                        }}
+                    >
+                        2022-2023
                     </div>
                 </div>
 
@@ -134,30 +154,41 @@ export function Projects() {
                         <img src={InstaForex} alt="Quotes" className={styles.img} />
                         <p className={styles.head}>InstaForex: Quotes & Trading</p>
                         <p className={styles.content}>
-                            Reverse engineering of the existing application from <strong>React Native</strong> into <strong>Flutter</strong> from the scratch
-                            named&nbsp;
-                            <a href="https://play.google.com/store/apps/details?id=com.instaforex.mobiletrader"
+                            Reverse engineering of the existing application from <strong>React Native</strong> into{' '}
+                            <strong>Flutter</strong> from the scratch named&nbsp;
+                            <a
+                                href="https://play.google.com/store/apps/details?id=com.instaforex.mobiletrader"
                                 target="_blank"
-                                rel="noopener noreferrer">InstaForex</a>&nbsp;
-                            in order to apply a new design, new version of API and boost its performance to the new level by using Dart Isolate.
-                            <br /><br /><strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC + @freezed, Provider, Rive, Web Sockets,
-                            WebView, Dio as Http, MVVM, Isolates and many others techs.
+                                rel="noopener noreferrer"
+                            >
+                                InstaForex
+                            </a>
+                            &nbsp; in order to apply a new design, new version of API and boost its performance to the
+                            new level by using Dart Isolate.
+                            <br />
+                            <br />
+                            <strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC + @freezed, Provider, Rive,
+                            Web Sockets, WebView, Dio as Http, MVVM, Isolates and many others techs.
                         </p>
 
-                        <p className={styles.content}>In production since Apr, 2022. The iOS version is under release</p>
-
+                        <p className={styles.content}>
+                            In production since Apr, 2022. The iOS version is under release
+                        </p>
                     </div>
-                    <div style={{
-                        position: "absolute",
-                        top: 20,
-                        right: 20,
-                        // color: "red",
-                        fontSize: 16
-                    }}>2021-2022
+                    <div
+                        style={{
+                            position: 'absolute',
+                            top: 20,
+                            right: 20,
+                            // color: "red",
+                            fontSize: 16,
+                        }}
+                    >
+                        2021-2022
                     </div>
                 </div>
             </div>
-
+            {/* 
             <h3 className="text-center my-5 text-info">
                 React JS &ensp;
                 <MDBIcon fab icon="react" />
@@ -240,7 +271,7 @@ export function Projects() {
                     }}>2020 - now
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <h3 className="text-center my-5 text-info">
                 React Native &ensp;
@@ -255,29 +286,39 @@ export function Projects() {
                         <img src={ForexCopy} alt="ForexCopy" className={styles.img} />
                         <p className={styles.head}>ForexCopy</p>
                         <p className={styles.content}>
-                            Development of the new application from the scratch named ForexCopy.<br />
-                            <a href="https://play.google.com/store/apps/details?id=com.instaforex.android.forexcopy"
+                            Development of the new application from the scratch named ForexCopy.
+                            <br />
+                            <a
+                                href="https://play.google.com/store/apps/details?id=com.instaforex.android.forexcopy"
                                 target="_blank"
-                                rel="noopener noreferrer">ForexCopy</a>&nbsp;is the best InstaForex app for copying
-                            orders of top traders.<br />
+                                rel="noopener noreferrer"
+                            >
+                                ForexCopy
+                            </a>
+                            &nbsp;is the best InstaForex app for copying orders of top traders.
+                            <br />
                             The ForexCopy mobile app from InstaForex will help you explore the process of copying orders
                             of top traders and start making money on their successful trades. ForexCopy is a
                             user-friendly app designed to satisfy traders’ needs, requests, and desires.
-                            <br /><br /><strong>Stack:</strong> JS(ES6+) + TypeScript, React Native, MST
-                            (mobx-state-tree), React Navigation,
-                            React-Native-Reanimated animations, WebView, etc.
+                            <br />
+                            <br />
+                            <strong>Stack:</strong> JS(ES6+) + TypeScript, React Native, MST (mobx-state-tree), React
+                            Navigation, React-Native-Reanimated animations, WebView, etc.
                         </p>
                         <p className={styles.content}>In production since Apr, 2021</p>
                         {/* <Dev /> */}
                     </div>
-                    <div style={{
-                        position: "absolute",
-                        top: 20,
-                        right: 20,
-                        color: "red",
-                        // fontWeight: "bold",
-                        fontSize: 16
-                    }}>2020-2021
+                    <div
+                        style={{
+                            position: 'absolute',
+                            top: 20,
+                            right: 20,
+                            color: 'red',
+                            // fontWeight: "bold",
+                            fontSize: 16,
+                        }}
+                    >
+                        2020-2021
                     </div>
                 </div>
 
@@ -286,31 +327,38 @@ export function Projects() {
                         <img src={CryptoLearn} alt="CryptoLearn" className={styles.img} />
                         <p className={styles.head}>CryptoLearn cryptocurrency</p>
                         <p className={styles.content}>
-                            I have entirely rewritten and restructured the existing live application CryptoLearn.<br />
-                            <a href="https://play.google.com/store/apps/details?id=com.instaforex.android.cryptolearn"
+                            I have entirely rewritten and restructured the existing live application CryptoLearn.
+                            <br />
+                            <a
+                                href="https://play.google.com/store/apps/details?id=com.instaforex.android.cryptolearn"
                                 target="_blank"
-                                rel="noopener noreferrer">CryptoLearn</a>&nbsp;is live Google Play deployed all-in-one
-                            app where you can find the
-                            required information for successful trading in the cryptocurrency market. The new
-                            information guide will provide you with the specifics of the crypto market dynamics. Traders
-                            can get the latest
-                            news on digital currencies, find the appropriate information, as well as participate in
-                            training seminars.
-                            <br /><strong>Stack:</strong> JS(ES6+), React Native, MST (mobx-state-tree), React
-                            Navigation,
+                                rel="noopener noreferrer"
+                            >
+                                CryptoLearn
+                            </a>
+                            &nbsp;is live Google Play deployed all-in-one app where you can find the required
+                            information for successful trading in the cryptocurrency market. The new information guide
+                            will provide you with the specifics of the crypto market dynamics. Traders can get the
+                            latest news on digital currencies, find the appropriate information, as well as participate
+                            in training seminars.
+                            <br />
+                            <strong>Stack:</strong> JS(ES6+), React Native, MST (mobx-state-tree), React Navigation,
                             React-Native-Reanimated animations, WebView, etc.
                         </p>
                         <p className={styles.content}>In production since Feb, 2020</p>
                         {/* <Dev /> */}
                     </div>
-                    <div style={{
-                        position: "absolute",
-                        top: 20,
-                        right: 20,
-                        color: "red",
-                        // fontWeight: "bold",
-                        fontSize: 20
-                    }}>2020-2021
+                    <div
+                        style={{
+                            position: 'absolute',
+                            top: 20,
+                            right: 20,
+                            color: 'red',
+                            // fontWeight: "bold",
+                            fontSize: 20,
+                        }}
+                    >
+                        2020-2021
                     </div>
                 </div>
                 <div className={styles.cardContainer}>
@@ -319,33 +367,47 @@ export function Projects() {
                         <p className={styles.head}>InstaVerify</p>
                         <p className={styles.content}>
                             Re-development of the existing application from the scratch named InstaVerify in order to
-                            apply new design and new API.<br />
-                            <a href="https://play.google.com/store/apps/details?id=com.instaforex.verify&hl=ru"
+                            apply new design and new API.
+                            <br />
+                            <a
+                                href="https://play.google.com/store/apps/details?id=com.instaforex.verify&hl=ru"
                                 target="_blank"
-                                rel="noopener noreferrer">Android</a>&nbsp;&&nbsp;
-                            <a href="https://apps.apple.com/gb/app/instaverify/id1581604223"
+                                rel="noopener noreferrer"
+                            >
+                                Android
+                            </a>
+                            &nbsp;&&nbsp;
+                            <a
+                                href="https://apps.apple.com/gb/app/instaverify/id1581604223"
                                 target="_blank"
-                                rel="noopener noreferrer">iOS</a>&nbsp;
-                            of the InstaForex trading account in your mobile.
-                            <br /><br /><strong>Stack:</strong> TypeScript only(ES6+), React Native, MST (mobx-state-tree) +
-                            MobX, React Navigation, &nbsp;
-                            <strong>React-Reanimated v.2</strong> animations, WebView, <strong>Rive animation</strong>, etc.
+                                rel="noopener noreferrer"
+                            >
+                                iOS
+                            </a>
+                            &nbsp; of the InstaForex trading account in your mobile.
+                            <br />
+                            <br />
+                            <strong>Stack:</strong> TypeScript only(ES6+), React Native, MST (mobx-state-tree) + MobX,
+                            React Navigation, &nbsp;
+                            <strong>React-Reanimated v.2</strong> animations, WebView, <strong>Rive animation</strong>,
+                            etc.
                         </p>
                         <p className={styles.content}>In production since Feb, 2020</p>
                         {/* <Dev /> */}
                     </div>
-                    <div style={{
-                        position: "absolute",
-                        top: 20,
-                        right: 20,
-                        color: "red",
-                        // fontWeight: "bold",
-                        fontSize: 20
-                    }}>2021
+                    <div
+                        style={{
+                            position: 'absolute',
+                            top: 20,
+                            right: 20,
+                            color: 'red',
+                            // fontWeight: "bold",
+                            fontSize: 20,
+                        }}
+                    >
+                        2021
                     </div>
                 </div>
-
-
             </div>
         </article>
     );

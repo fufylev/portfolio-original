@@ -7,9 +7,9 @@ export const TopPageInfo = () => {
         <div className={styles.heading}>
             <img src={avatar} alt="avatar" className={styles.avatar} />
             <div className="text-center">
-                <h1 className={styles.title}>React Native and Flutter Developer</h1>
+                <h1 className={styles.title}>Senior Flutter Developer</h1>
                 <h5 className={styles.title}>
-                    I like to code things from scratch, and enjoy bringing ideas to life in the browser or mobile UI.
+                    I like to code things from scratch, and enjoy bringing ideas to life in mobile User Interfaces.
                 </h5>
             </div>
         </div>
