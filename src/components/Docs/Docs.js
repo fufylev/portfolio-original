@@ -20,7 +20,7 @@ export function Docs() {
             <p className={styles.headingText}>
                 English test - IELTS certificate (March 23d, 2019) -&ensp;
                 <a
-                    href="https://drive.google.com/open?id=1VUU10PN3NfmzJU6qR9WRLtbxESfxAEPU"
+                    href="https://drive.google.com/file/d/1KWy4dxHcr6UAVgULqUETBXoDxnMaM0hT/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
