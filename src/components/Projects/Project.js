@@ -38,7 +38,46 @@ export function Projects() {
             <h3 className="text-center my-5 text-info">Flutter</h3>
 
             <div className={styles.cardsContainer}>
-                {/* <div className={styles.cardContainer}>
+            <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <img src={ATB} alt="Atb Bank" className={styles.img} />
+                        <p className={styles.head}>Asian-Pacific Bank mobile app</p>
+                        <p className={styles.content}>
+                            Developing a bank app from the scratch named&nbsp;
+                            <a
+                                href="https://play.google.com/store/apps/details?id=su.atb.mobileapp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Atb Bank (android)
+                            </a>
+                            , &nbsp;
+                            <a href="https://apps.apple.com/app/id1604332202" target="_blank" rel="noopener noreferrer">
+                                Atb Bank (iOS)
+                            </a>
+                            .
+                            <br />
+                            <br />
+                            <strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC, Provider, Rive, Yandex Map.
+
+                        </p>
+
+                        <p className={styles.content}>In production since Apr, 2023.</p>
+                        <Dev />
+                    </div>
+                    <div
+                        style={{
+                            position: 'absolute',
+                            top: 20,
+                            right: 20,
+                            // color: "red",
+                            fontSize: 16,
+                        }}
+                    >
+                        2022-2023<br />2025 - now
+                    </div>
+                </div>
+               <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <img src={IEYE} alt="ieye.app" className={styles.img} />
                         <p className={styles.head}>iEYE core (b2c)</p>
@@ -65,7 +104,7 @@ export function Projects() {
                         fontSize: 16
                     }}>2022 - now
                     </div>
-                </div> */}
+                </div>
 
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
@@ -96,58 +135,21 @@ export function Projects() {
                         </p>
 
                         <p className={styles.content}>In production since June, 2024.</p>
-                        <Dev />
+
                     </div>
                     <div
                         style={{
                             position: 'absolute',
                             top: 20,
                             right: 20,
-                            color: 'red',
                             fontSize: 16,
                         }}
                     >
-                        2023 - now
+                        2023 - 2025
                     </div>
                 </div>
 
-                <div className={styles.cardContainer}>
-                    <div className={styles.card}>
-                        <img src={ATB} alt="Atb Bank" className={styles.img} />
-                        <p className={styles.head}>Asian-Pacific Bank mobile app</p>
-                        <p className={styles.content}>
-                            Developing a bank app from the scratch named&nbsp;
-                            <a
-                                href="https://play.google.com/store/apps/details?id=su.atb.mobileapp"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Atb Bank (android)
-                            </a>
-                            , &nbsp;
-                            <a href="https://apps.apple.com/app/id1604332202" target="_blank" rel="noopener noreferrer">
-                                Atb Bank (iOS)
-                            </a>
-                            .
-                            <br />
-                            <br />
-                            <strong>Stack:</strong> Clean Architecture, Dart, Flutter, BLoC, Provider, Rive, Yandex Map.
-                        </p>
 
-                        <p className={styles.content}>In production since Apr, 2023.</p>
-                    </div>
-                    <div
-                        style={{
-                            position: 'absolute',
-                            top: 20,
-                            right: 20,
-                            // color: "red",
-                            fontSize: 16,
-                        }}
-                    >
-                        2022-2023
-                    </div>
-                </div>
 
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
@@ -188,7 +190,7 @@ export function Projects() {
                     </div>
                 </div>
             </div>
-            {/* 
+            {/*
             <h3 className="text-center my-5 text-info">
                 React JS &ensp;
                 <MDBIcon fab icon="react" />

@@ -6,13 +6,32 @@ export function Milestones() {
         <article className={styles.career}>
             <h2 className={styles.title}> Milestones </h2>
             <h3 className="text-center mb-3 text-info">Professional Experience</h3>
+            <p className={styles.heading}>April 2025 – to present</p>
+            <p className={styles.position}>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.eng.atb.su/">
+                    "Asian-Pacific Bank" JSC
+                </a>
+            </p>
+            <p className={styles.position}>Lead Flutter developer</p>
+            <ul className={styles.list}>
+                <li className="">
+                Managing "Core & Security" department in terms of mobile development.
+                </li>
+                <li className="">
+                The adoption of an isolated micro-modular architecture severs the horizontal dependencies between application modules owned by different bank departments and infrastructures. This approach allows for the development of fully self-contained features that operate independently of other modules or systems.
+                </li>
+                <li className="">
+                Mentorship program for junior development staff.
+                </li>
+            </ul>
+            <br />
             <p className={styles.heading}>December 2023 – Jan 2025</p>
             <p className={styles.position}>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.rbt.ru/">
                     RBT.ru
                 </a>
             </p>
-            <p className={styles.position}>Senior Flutter developer</p>
+            <p className={styles.position}>Lead Flutter developer</p>
             <ul className={styles.list}>
                 <li className="">
                     Launched the application from scratch into Production within 6 months, achieving a management markup
@@ -33,7 +52,7 @@ export function Milestones() {
                     ieye core
                 </a>
             </p>
-            <p className={styles.position}>FrontEnd Lead/Senior Flutter developer</p>
+            <p className={styles.position}>FrontEnd Lead</p>
             <ul className={styles.list}>
                 <li className="">
                     Led the development in a startup, independently completing all tasks related to the project,
@@ -61,7 +80,7 @@ export function Milestones() {
                     "Asian-Pacific Bank" JSC
                 </a>
             </p>
-            <p className={styles.position}>Senior Flutter developer</p>
+            <p className={styles.position}>SeniorFlutter developer</p>
             <ul className={styles.list}>
                 <li className="">
                     Developed modules for “Bank Cards and Accounts,” “Client Transfers,” “Intra-bank Transfers,” and

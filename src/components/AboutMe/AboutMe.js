@@ -7,13 +7,13 @@ export function AboutMe() {
             <h3 className={styles.title}>About me</h3>
             <p className={styles.text}>Hello! My name is Andrei. Nice to meet you.</p>
             <p className={styles.text}>
-                I'm a Senior Flutter Developer with over 5 years of experience building high-performance mobile
+                I'm a Lead Flutter Developer with over 5 years of experience building high-performance mobile
                 applications from scratch, optimizing for 120fps without freezes, and implementing modern architectures.
                 Successfully launched an e-commerce app, achieving 150M RUB in profit and over 200K downloads, and
                 rewrote a trading app from React Native to Flutter, eliminating performance issues. Expertise in complex
                 integrations (SBP, FSG, BLE), advanced animations, and mentoring junior developers, with a proven track
                 record of delivering scalable, user-friendly apps.
-            </p>
+            </p> 
             <p className={styles.text}>
                 I'm eager to support the dev team with top-notch coding skills. I'm quietly confident, naturally curious
                 in all aspects of Dart patterns and complex interactive styled user interfaces, and perpetually working
